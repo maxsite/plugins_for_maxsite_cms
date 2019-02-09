@@ -1,0 +1,124 @@
+.mso-comment-form form {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.mso-comments-autharea .mso-comments-user,
+.mso-comments-autharea .mso-comments-comuser {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.mso-comments-autharea img.mso-gravatar {
+	float: none;
+	margin: 0 auto !important;
+}
+
+.mso-comments-autharea.user, .mso-comments-autharea.comuser {
+	width: 100px;
+	max-width: 100px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.mso-comments-textarea {
+	flex-grow: 1;
+}
+
+.mso-comments-autharea.anonim {
+	width: 280px;
+	max-width: 280px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.mso-comments-autharea.anonim + .mso-comments-textarea {
+	margin-left: 5px;
+}
+
+.mso-comments-textarea .comments_captha {
+	display: block;
+}
+.comment_smiles {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: space-around;
+}
+
+.comment_smiles a {
+	flex-grow: 0;
+}
+
+.mso-comments-auth input {
+	display: block;
+	width: 100%;
+}
+
+.mso-comment-reply + .mso-comment-form {
+	margin-top: 10px;
+}
+
+.mso-comments.tree ul.comments {
+	padding-left: 0px;
+}
+
+.mso-comments.tree ul.comments ul.comments {
+	padding-left: 20px;
+}
+
+.mso-comments.tree ul.comments > li {
+	list-style-type: none;
+}
+
+.mso-comment-article button.rating:before {
+	font-family:FontAwesome;
+	display:inline-block;
+	font-size:inherit;
+	font-weight:400;
+	font-style:normal;
+	line-height:1;
+	margin-right:7px;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	content:"\f164"
+}
+
+.mso-comment-article button.rating + span {
+	display: none;
+}
+
+.mso-comments .mso-comments-best span {
+	width: 100%;
+	display: inline-block;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #616161;
+	margin: 30px 0px 5px;
+	border-bottom: 3px double #E0E0E0;
+}
+
+.mso-comments .mso-comments-best span:before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	margin-right: 7px;
+	text-rendering: auto;
+	content:"\f164"
+}
+
+.pagination.comments .button {
+	/*background: none;*/
+	padding: 0px;
+}

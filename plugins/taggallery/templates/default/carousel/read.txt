@@ -1,0 +1,9 @@
+jCarousel Lite 
+(jQuery + mouseWheel plugin).
+Карусель из картинок + прокрутка колесом мыши.
+
+Взята сдесь
+http://www.gmarwaha.com/jquery/jcarousellite/index.php
+
+Описание на Русском
+http://ka.nnov.ru/process/jcarousel/

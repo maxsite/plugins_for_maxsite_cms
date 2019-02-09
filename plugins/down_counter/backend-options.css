@@ -1,0 +1,45 @@
+div.admin_plugin_options_info h3 {
+    margin: 0;
+    padding: 0;
+}
+div.admin_plugin_options_info h3 a {
+    background-color: #E0E0E0;
+    color: #444444;
+    display: block;
+    margin: 0 0 2px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+div.admin_plugin_options_info h3 a:before {
+    content: "\f0c9";
+    display: inline-block;
+    font-family: FontAwesome;
+    width: 25px;
+}
+div.admin_plugin_options_info h3 a:hover {
+    background-color: #D0D0D0;
+    color: #222222;
+}
+div.admin_plugin_options_info h3 a.visible {
+    background-color: #2A8E9D;
+    color: #FFFFFF;
+}
+div.admin_plugin_options_info h3 a.visible:hover {
+    background-color: #469BA8;
+}
+div.admin_plugin_options_info h3 a.visible:before {
+    content: "\f078";
+    font-family: FontAwesome;
+}
+div.admin_plugin_options_group .fhint {
+    color: #606060;
+    font-size: 0.9em;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+div.admin_plugin_options_group .fhint .cite {
+	border-left:3px solid #708184;
+	background-color:#dcfaff;
+	padding: 4px;
+}

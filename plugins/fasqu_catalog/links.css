@@ -1,0 +1,11 @@
+div.links_form {}
+
+h2.links { margin: 20px 0 10px 0;}
+p.links {}
+
+table.links {width: 100%; margin: 5px 0;}
+table.links td {vertical-align: top; padding: 3px;}
+table.links td.header {text-align: right; background: gray; color: white;}
+table.links td.t1 {width: 100px; text-align: right; background: silver;}
+table.links td.t2 {border-bottom: 1px solid #EEEEEE;}
+table.links td.space {padding: 0; height: 7px;}

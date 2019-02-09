@@ -1,0 +1,176 @@
+/*
+ * (c) Alexander Schilling
+ * http://alexanderschilling.net
+ * https://github.com/dignityinside/dignity_forum (github)
+ * License GNU GPL 2+
+ */
+
+/* -------------------------------------------------------------------
+// Свои стили для форума
+// ------------------------------------------------------------------*/
+
+.forum_info{
+  color: #464646;
+  font-weight: bold;
+}
+
+.forum_category_description{}
+
+.forum_posle_forums{
+  padding: 6px 5px;
+}
+
+.new_forum_post{
+  margin-top: 30px;
+}
+
+.forum_login{
+  background: #F6F6F6;
+  padding: 5px;
+}
+
+.forum_footer{
+  margin-top: 10px;
+}
+
+.forum_top{
+  border: solid 1px #DDD;
+  background: #F6F6F6;
+  margin-top: 10px;
+}
+
+.forum_block{
+  border: solid 1px #DDD;
+  -background: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.forum_title{
+  font-style: italic;
+  font-weight: bold;
+  background: #F6F6F6;
+  padding: 5px;
+}
+
+.forum_title_recent{
+  font-style: italic;
+  background: #F6F6F6;
+  padding: 5px;
+  font-size: 0.8em;
+  
+}
+
+.forum_content{
+  padding: 10px 10px;
+}
+
+.forum_comment{
+  padding: 0px 10px;
+}
+
+.forum_header_topic{}
+
+.forum_posle{
+  background: #F6F6F6;
+  padding: 2px 5px;
+}
+
+.forum_topic{
+  border-bottom:dotted 1px #d2d2d2;
+  padding:2px 10px;
+}
+
+.forum_topic p{
+  font-size:0.8em;
+}
+
+.forum_topic:hover{
+  background: #F6F6F6;
+}
+
+.forum_topic h2 {
+font-size: 1.4em;
+margin: 2px 0 2px;
+font-weight: 400;
+line-height: 1.1em;
+}
+
+.forum_new_topic_submit,
+.forum_new_reply_submit{
+  background: #fff;
+  border: solid 1px #d2d2d2;
+  text-decoration: none;
+}
+
+.forum_answer_edit{
+  background: #fff;
+  border: solid 1px #d2d2d2;
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+.forum_answer{
+  text-align: right;
+  padding: 2px;
+  margin: 0 2px 2px 0;
+}
+
+.forum_answer_button{
+  background: #fff;
+  border: solid 1px #d2d2d2;
+}
+
+div.forum_header_forums{}
+
+table th,
+table td {
+  border: 1px solid #d2d2d2;
+  padding: 2px 3px;
+  vertical-align: top;
+}
+
+table th {
+  background: #fff;
+  font-weight: bold;
+}
+
+/* tabs menu */
+
+.forum_tabs{
+  	border-bottom:solid 1px #dddddd;
+  	padding-bottom:1px;
+	width: 100%;
+}
+        
+ul.forum_tabs_nav {
+	margin: 0;
+    padding: 0;
+	height: 30px;
+	width: 100%;
+	list-style: none;
+}
+        
+ul.forum_tabs_nav li.elem {
+	float: left;
+	display: inline;
+	position: relative;
+	line-height: 30px;
+	height: 30px;
+	margin: 0 2px 0 0;
+	padding: 0 5px;
+	cursor: pointer;
+	font-size: .9em;
+	background: #fff;
+	color: #888;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	border:solid 1px #dddddd;
+}
+        
+ul.forum_tabs_nav li.elem:hover,
+ul.forum_tabs_nav li.forum_tabs-current {
+    background: #DDD;
+	color: black;
+}

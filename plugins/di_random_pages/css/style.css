@@ -1,0 +1,5 @@
+ul.di_random_pages{margin:5px 0;list-style:none;}
+ul.di_random_pages li{list-style:none;text-align:left;}
+ul.di_random_pages a{display:block;overflow:hidden;word-wrap:break-word;padding:10px 5px;}
+img.sidebar_img{float:left;margin:5px 10px 5px 0;width:100px;height:auto;border: 1px solid #BDBDBD;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
+img.sidebar_img:hover{opacity:0.7;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-webkit-transition: all 1s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;-ms-filter:grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray;}

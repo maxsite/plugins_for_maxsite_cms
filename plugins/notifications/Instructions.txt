@@ -1,0 +1,73 @@
+
+*************************
+*************************
+
+IMPORTANT: Due to limited resources, I am unable to offer support for the free items on codebasehero.com.
+
+However, all premium files purchased from http://codecanyon.net/user/23andwalnut/portfolio are eligible for support.
+
+Thanks,
+Saleem
+
+*************************
+*************************
+
+
+1. Include jQuery in your page.
+
+2. Include the plugin javascript and css file.
+
+3. Initialize the simple notifications plugin:
+
+      //Use default options:
+      var notifications = $('body').ttwSimpleNotifications();
+
+      //Use custom options:
+      var notifications = $('body').ttwSimpleNotifications({
+            position:'bottom right',
+            autoHide:true,
+            autoHideDelay:3000,
+            clickCallback:function(){
+               //some callback function
+            },
+            showCallback:null,
+            hideCallback:null
+        });
+
+
+4. Call desired plugin methods:
+
+       //A simple notification with no options:
+       notifications.show('codebasehero.com rocks my socks off');
+
+       //A notification with html and an icon:
+       notifications.show({msg:'Make sure to bookmark <a href="http://www.codebasehero.com" target="_blank">Codebase Hero</a> and check back often', icon:'images/icon.png'});
+
+       //A notification that overrides the default options:
+       notifications.show({msg:'Don\'t forget to check out my <a href="http://codecanyon.net/user/23andwalnut/portfolio" target="_blank">Premium Files</a>', icon:'images/icon.png', autoHide:false});
+
+       //Closing a notification programatically::
+       var thisNotif = notifications.show('Yeah, I know I'm awesome :)');
+       thisNotif.hide();
+
+       //Get a handle to the active notifications array:
+       var actives = notifications.notifications;
+
+5. If you are having issues, do the following:
+
+   a. Turn on jPlayer debugging
+       $('element').ttwMusicPlayer({
+            jPlayer:{
+                errorAlerts:true,
+                warningAlerts:true
+            }
+       });
+
+      Reload you page and address any errors displayed by jPlayer
+
+   b. If oga files are not working in firefox, make sure your server is sending the correct mime types for oga files.
+      You can add the following to your htaccess file.
+
+        AddType audio/ogg ogg
+        AddType audio/ogg oga
+        AddType video/ogg ogv

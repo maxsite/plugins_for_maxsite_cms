@@ -1,0 +1,11 @@
+.pagination .button a {
+	background: transparent;
+}
+
+.pagination .button a:hover {
+	background: #43A047 none repeat scroll 0% 0%;
+}
+
+.pagination .button {
+	transition: none;
+}

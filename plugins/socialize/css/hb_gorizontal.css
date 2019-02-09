@@ -1,0 +1,37 @@
+#socializeit {
+  position: relative;
+  margin: 30px auto 0;
+  padding: 6px;
+  border: 1px solid #E5E5E5;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #FFF;
+  display:inline-block;
+}
+* html #socializeit {display: none}
+#socializeit:hover {
+  background: #F6F6F6;
+  border: 1px solid #D4D4D4;
+  -moz-box-shadow: 0 0 5px #DDD;
+  -webkit-box-shadow: 0 0 5px #DDD;
+  box-shadow: 0 0 5px #DDD;
+}
+#socializeit a {
+  width: 32px;
+  height: 32px;
+  background-color: #F6F6F6;
+}
+.hbmore {
+  cursor:pointer;
+  margin:0;
+  padding:0;
+  font-family:Arial;
+  font-size:10px;
+}
+#hbclear {clear:both;margin:0;padding:0;}
+#hbnav {
+	display:block;
+	margin:0 0 30px;
+	padding:0px;
+}

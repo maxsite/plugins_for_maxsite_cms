@@ -1,0 +1,40 @@
+/*
+ */
+
+.emadd a {
+	background-image: url(images/emadd.png);
+}
+
+.redrow {
+	visibility: hidden;
+}
+
+div.emdwl {
+	background-color: #F6F3DA;
+	border: 2px solid grey;
+	padding-left: 20px;
+	color: #808080;
+}
+
+div.emdwl a {
+	text-decoration: none;
+	font-size:0.8em;
+}
+
+div.emdwl-title {
+	background-color: #BDB76B;
+	border-left: 2px solid grey;
+	border-top: 2px solid grey;
+	border-right: 2px solid grey;
+	margin-bottom: -15px;
+	padding-top: -20px;
+	padding-left: 20px;
+
+}
+
+div.emdwl-title h4 {
+
+	margin-top: -4px;
+
+}
+

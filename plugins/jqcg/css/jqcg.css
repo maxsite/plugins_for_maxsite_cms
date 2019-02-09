@@ -1,0 +1,26 @@
+/**
+ * Плагин jqcg для Maxsite.
+ * Стили jqcoolGallery-1.8 для страниц с sidebar'ом и без него.
+ * Автор: lefro, http://lefroway.com/
+ * 
+ */
+
+
+/*Под дефолтный размер изобр. 600px*/
+#gallery {max-width:740px; margin:15px 0 20px 0; background:#2D4242;}
+/*Настраивается под больший размер изобр. (установлено 675px).no-sidebar*/
+#gallerywide {max-width:1100px; padding:0 10 0 0; margin:15px 0 20px 0; background:#2D4242;}
+
+/*****Не изменять*****/
+.jqcg-gallery {margin-left:0 !important;}
+.jqcg-ctl-home span {display:inline-table !important; text-align:center !important;}
+.jqcg-viewer-controls ul {display:inline-table !important; margin-left:0 !important;}
+.jqcg-viewer-slides img {margin-left:-65px !important;}
+/***===============***/
+
+.jqcg-gallery-item {margin:18px 18px 18px 18px;}
+.jqcg-viewer {background-color:#404040; padding:9px 0 10px 0;}
+.jqcg-panel {font-size:80%; color:white; display:inline-block; margin-right:3px;}
+.jqcg-step-right {right:-10px;}
+
+

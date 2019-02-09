@@ -1,0 +1,237 @@
+.hcat		{
+		position:relative;
+		top:10px;
+		left:0px;
+		height:50px;
+		line-height:80px;
+		margin:0;
+		}
+
+/* оформление главной страницы каталога */
+.frontpage	{
+		position:relative;
+		width:430px;
+		}
+/*блок акций на главной странице*/
+.fpactbox		{
+		position:relative;
+		top:40px;
+		left:0px;
+		left:220px;
+		width:220px;
+		}
+.fpact		{
+		position:relative;
+		padding-top:5px;
+		padding-bottom:5px;
+		top:10px;
+		}
+.fpalluact		{
+		position:relative;
+		color: #d44944;
+		padding-top:5px;
+		padding-bottom:5px;
+		top:10px;
+		}
+.fpnmact		{
+		position:relative;
+		float:left;
+		}
+.fpnmalluact	{
+		position:relative;
+		float:left;
+		}
+.fpdiscount	{
+		position:relative;
+		margin-left:135px;
+		}
+.fpdescription	{
+		position:relative;
+		margin-left:135px;
+		}
+/*первый товар на главной странице*/
+.fpprodbox1	{
+		position:relative;
+		float:left;
+		top:20px;
+		left:40px;
+		width:110px;
+		}
+/*второй товар на главной странице*/
+.fpprodbox2	{
+		position:relative;
+		float:left;
+		top:20px;
+		left:150px;
+		width:150px;
+		}
+/*третий товар на главной странице*/
+.fpprodbox3	{
+		position:relative;
+		float:left;
+		top:80px;
+		left:40px;
+		width:110px;
+		}
+/*четвертый товар на главной странице*/
+.fpprodbox4	{
+		position:relative;
+		float:left;
+		top:30px;
+		left:220px;
+		width:110px;
+		}
+/* оформление страницы одного товара */
+.prod		{
+		/*position:relative;
+		width:430px;*/
+		overflow:hidden;
+		}
+.prod h2 h3 h4	{
+		color: #d44944;
+		}
+.nmcat		{
+		/*position:relative;
+		top:10px;
+		left:220px;*/
+		width:200px;
+		}
+.prodpictbox	{
+		position:relative;
+		float:left;
+		width:200px;
+
+		}
+.prodpict		{
+		position:relative;
+		top:-19px;
+		left:0px;
+		float:left;
+		width:200px;
+		margin: 5px auto;
+		max-width: 200px;
+		display: block;
+		}
+.addbsk		{
+		/*position:relative;
+		top:90px;
+		left:20px;*/
+		float:left;
+		margin: 20px 0 40px 0;
+		width:300px;
+		}
+.prodbox		{
+		/*position:relative;*/
+		float:left;
+		top:20px;
+		left:20px;
+		width:220px;
+		}
+.nameprod	{
+		position:relative;
+		}
+.cost		{
+		position:relative;
+		font-size:+2em;
+		top:5px;
+		}
+.descr		{
+		position:relative;
+		}
+.par		{
+		position:relative;
+		}
+.actbox		{
+		position:relative;
+		float:left;
+		top:20px;
+		left:20px;
+		width:200px;
+		}
+.act		{
+		position:relative;
+		padding-top:5px;
+		padding-bottom:5px;
+		top:10px;
+		}
+.nmact		{
+		position:relative;
+		float:left;
+		}
+.discount		{
+		position:relative;
+		margin-left:135px;
+		}
+.actcost		{
+		position:relative;
+		}
+.alluact		{
+		position:relative;
+		color: #d44944;
+		padding-top:5px;
+		padding-bottom:5px;
+		top:10px;
+		}
+.nmalluact	{
+		position:relative;
+		float:left;
+		}
+
+/* оформление списка */
+div.content-wrap {
+	overflow:hidden
+	}
+.oneprodlist	{
+		/*position:relative;
+		top:0px;
+		left:0px;*/
+		float:left;
+		margin:5px;
+		padding:10px;
+		border:1px solid #aaa;
+		width:185px;
+		}
+.onepictlist	{
+		position:relative;
+		float:left;
+		width:0px;
+		}
+.minipict		{
+		position:relative;
+		top:25px;
+		left:270px;
+		height:70px;
+		margin: 0px auto;
+		/*width:150px;
+		max-width: 150px;*/
+		max-height: 70px;
+		display: block;
+		}
+
+/* class для таблиц с сортировкой*/
+.grshtable 	{
+ 		font:		Icon;
+		border:		1px Solid ThreeDShadow;
+		background:	Window;
+		color:		WindowText;
+		border-collapse:	collapse;	
+		}
+
+/* header row*/
+.grshtable th 	{
+ 		padding:		2px 5px;
+ 		border:		1px solid;
+		border-color:	ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+		cursor:		default;
+		background:	ButtonFace;
+		}
+
+/* normal row*/
+.grshtable td 	{
+		padding:		3px;
+		}
+
+/* alternative row */
+.grshtable tr.alt 	{
+	 	background-color:	#F4F4EC; 
+		}

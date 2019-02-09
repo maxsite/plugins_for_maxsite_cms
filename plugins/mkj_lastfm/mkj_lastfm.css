@@ -1,0 +1,44 @@
+div.mkj_lastfm_track {
+	width: 100%;
+	margin: 3px 0;
+	clear: both;
+	border-bottom: 1px solid #AAAAAA;
+	padding: 2px 0 5px;
+	font-size: 13px;
+	font-family: "Calibri", "Segoe UI";
+}
+
+div.mkj_lastfm_track img.cover {
+	height: 32px;
+	width: 32px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 3px;
+}
+
+div.mkj_lastfm_track img.nowplaying {
+	float: right;
+	position: relative;
+	top: 4px;
+}
+
+div.mkj_lastfm_track p {
+	margin: 0;
+	padding: 0;
+}
+
+div.mkj_lastfm_track p.title { font-weight: bold; }
+
+p.mkj_lastfm_link { text-align: right; }
+
+a.mkj_lastfm_link {
+	background: url("user.png") no-repeat scroll 0 0;
+	padding-left: 20px;
+	color: red;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+}
+
+a.mkj_lastfm_link:hover { text-decoration: underline; }

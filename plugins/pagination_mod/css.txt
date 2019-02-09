@@ -1,0 +1,30 @@
+Бонус
+
+В качестве  приятного  дополнения  выкладываю  стилевое  оформление  пагинации.
+Выглядеть будет примерно как в моем фотоблоге, однако для этого нужно прописать
+в опциях плагина следующее:
+
+    Количество ссылок: 3
+    Текст перед пагинацией: Страницы
+    Текст для ссылки «Первая»: первая
+    Текст для ссылки «предыдущая»: <big>←</big> предыдущая
+    Текст для ссылки «следующая»: следующая <big>→</big>
+    Текст для ссылки «последняя»: последняя
+    Разделитель между страницами: [пробел]
+    Разделитель между блоком страниц и текстовыми ссылками: [пробел]
+
+И добавить в файл стилей следующий код:
+
+/* pagination */
+.pagination_mod {margin:.5em 0 0; height:4.5em; text-align:center}
+.pagination_mod a {border:0}
+.pag-list a, .pag-list strong {padding:.15em; width:1.2em; text-align:center; display:inline-block; border:1px transparent solid;}
+.pag-list a:hover, .pag-list a:active, .pag-list strong {font-weight:normal; border:1px gray solid}
+.pagination_mod span {position:relative}
+.pag-left {margin-right:.8em; height:4.5em}
+.pag-right {margin-left:.8em; height:4.5em}
+a.pag-first, a.pag-last {position:absolute; top:2.2em; font-size:.9em; padding:0 .2em}
+a.pag-last {left:0}
+a.pag-first {right:0}
+*+html a.pag-first, *+html a.pag-last {top:2.8em} /* for ie7 */
+*|html[xmlns*=""] a.pag-first, *|html[xmlns*=""] a.pag-last {display:none!important} /* for opera */

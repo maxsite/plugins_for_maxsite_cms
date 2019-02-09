@@ -1,0 +1,30 @@
+#socializ {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background:rgba(255, 255, 255, 0.1);
+	border:1px solid rgba(255, 255, 255, 0.2);
+	padding:6px 6px 0;
+	position:fixed;
+	z-index:1000;
+}
+* html #socializ {display: none}
+#socializ:hover {
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+#socializ a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 0 0 6px;
+}
+#socmore {
+	text-align: center;
+	cursor: pointer;
+	margin: -11px 0 4px;
+	width: 32px;
+}

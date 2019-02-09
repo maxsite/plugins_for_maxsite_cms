@@ -1,0 +1,101 @@
+/* общий блок */
+#pagerate {
+	-padding: 5px;
+	margin:0 4px 2px;
+	-float: right;
+	-border: 1px solid #CCCCCC;
+}
+
+h4.pagerate_header {
+	color: #666666;
+}
+
+#pagerate a img {
+cursor: pointer;
+}
+
+/* блок с кнопкой minus */
+#pagerate_minus {
+	display: inline;
+	padding: 4px;
+}
+
+/* блок с кнопкой plus */
+#pagerate_plus {
+	display: inline;
+	padding: 4px;
+}
+
+/* блок сj значением рейтинга */
+#pagerate_rating {
+	display: inline;
+	padding: 2px 10px;
+}
+
+
+
+.pagerate_value_plus {
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pagerate_value_minus {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pagerate_value_null{
+	color: grey;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.pagerate_value_voted {
+	color: orange;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* всплывающее окно о том, что уже голосовали или ваш голос учтен */
+
+.bubbleInfo {
+	position: relative;
+	left:-44px;
+	-top:-80px;
+	bottom: 55px;
+	display: none;
+}
+
+.trigger {
+	-position: absolute;
+}
+
+.popup {
+	display: block;
+	font-size:0.8em;
+	margin: 0 0 0 5px;
+	position:absolute;
+	text-align:center;
+	width:162px;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.popup_top {
+	height: 13px;
+	background: url(popup_top.png) no-repeat;
+}
+
+.popup_center {
+	background: url(popup_center.png) repeat-y;
+		margin-top: -5px;
+}
+
+.popup_bottom {
+	height: 15px;
+	background: url(popup_bottom.png) no-repeat;
+
+}

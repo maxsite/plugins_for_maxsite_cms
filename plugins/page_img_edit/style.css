@@ -1,0 +1,13 @@
+.cornerz {float: left; margin-left: 5px; min-height: 120px; text-align: center; position: relative;}
+.cornerz label {font-weight:bold}
+.file_img {max-height: 100px; margin: 5px auto; display: block;}
+.file_img:hover {border: 1px #808080 solid;}
+.post_img {max-height: 100px; margin: 5px auto; display: block;}
+.img_url {width: 95%;}
+.right {float:right}
+div.table_pages {width: 600px; float: left}
+div.pics {padding-left: 610px;}
+div.content_pics {position: relative; overflow: auto; background: #f4f6f8}
+div.dirs {position: relative;}
+
+

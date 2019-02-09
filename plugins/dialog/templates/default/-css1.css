@@ -1,0 +1,265 @@
+div.dialog_page {} 
+div.dialog_page_content{min-height:600px; }
+
+/* начальный блок */
+div.dialog-do {}
+
+/* Хлебные крошки */
+div.breadcrumbs {width: 100%; font-style: italic; padding: 5px; } 
+ 
+/* Меню */ 
+div.dialog-menu {font-size: 8pt; margin: 0 0 0 0; padding-left: 10px; padding-right: 10px; background: #E8E8E8;  line-height: 35px;}
+.menu_login{float:right} 
+
+.right {float: right;}
+img.center {margin: 0 auto; display: block;}
+.left {float: left;}
+
+input.css_submit {font-size: 10pt; height: 50px; margin-top: 15px;}
+
+
+/* Выбор сортировки */
+div.sort_navi {font-size: 10pt;}
+
+
+/*Для нерегистрир */ 
+div.login_register {font-size: 8pt; font-weight: bold; background: #E8E8E8;  line-height: 35px; margin-top: 15px;} 
+div.login_register table {width: 100%; text-align: center; vertical-align: center}
+div.login_register table td.info {width: 60%} 
+div.login_register table td.action {vertical-align: center; font-size: 10pt;} 
+ 
+/*Статистика */ 
+div.statistic {font-size: 8pt; margin: 0 0 0 0; padding-left: 10px; padding-right: 10px; background: #E8E8E8;  line-height: 35px; margin-top: 5px;}
+ 
+
+/* сетка комментов */
+
+div.comments_list{width: 100% ; float:none; margin-top: 10px;}
+div.comments_list ul, div.comments_list ol {margin: 10px 0 20px 0;}
+div.comments_list li {clear: both; padding-top: 10px; border-bottom: 2px solid #CCCCCC;}
+
+table.disc-comm {width: 100%; border-collapse: collapse; border-spacing: 0;}
+table.disc-comm td {border: 1px solid #cccccc; padding: 2px 3px; vertical-align: top;}
+
+div.comment{position:relative; width: 100% ; float:none; margin-top: 5px; height:100%;}
+
+td.comment_user{width: 100px; background: #E8E8E8; font-size: 8pt;}
+div.user_link{font-size: 8pt; font-weight: bold;}
+div.user_link img {padding: 5px 5px 5px 5px;}
+div.user_avatar{text-align: center}
+div.user_info{}
+div.user_info p {margin: 0 0 0 0; }
+div.user_info p.user_register{}
+div.user_info p.user_comments_count{}
+div.user_info p.user_rate{}
+div.user_info p.user_dankes{}
+div.user_info p.user_links{margin: 5px 5px 5px 5px;}
+
+/* div.comment_info{width: 100px;} */
+
+table.table_comment{ border-style: hidden; width: 100%; border:0}
+table.table_comment td { border-style: hidden; border:0}
+table.table_comment td.bottom {vertical-align: bottom;}
+
+div.comment_top{background: #E8E8E8;}
+div.comment_top span.comment_date{font-size: 8pt; font-weight: bold;}
+div.comment_top span.comment_title{}
+div.comment_top span.comment_edit{float: right}
+div.comment_top span.comment_no{float: right; padding-right: 5px;}
+div.comment_top span.comment_bad{float: right}
+
+div.comment_status{font-size: 8pt;}
+div.comment_status span {margin: 5px 5px 5px 5px; color:red; font-weight: bold;}
+div.comment_status input {font-size: 7pt;}
+
+
+div.comment_comment{font-size: 12px; margin-left: 10px; padding: 5px 5px 5px 5px; min-height:40px;}
+div.comment_comment blockquote {margin-left: 10px;}
+
+table.comment_footer { border-style: hidden; width: 100%; border:0;}
+td.comment_user_podpis{padding: 5px 5px 5px 5px; font-size: 8pt;}
+
+td.comment_actions{}
+td.comment_actions p {float: right}
+.actions{}
+
+
+
+table.comment_bottom{width: 100%; margin: 0 0 0 0; border: 1px solid #cccccc;}
+table.comment_bottom td {margin: 0 0 0 0; }
+
+
+span.navi_buttons{}
+span.navi_buttons img{margin-left: 2px; margin-right: 2px;}
+.navi_button_left{float: left}
+.navi_button_right{float: right}
+
+span.comment_danke{font-size: 8pt;}
+
+div.comment_danke {font-size: 8pt;}
+a.danke_show {}
+span.danke_count{}
+span.danke_list{display: none;}
+
+div.comment_perelinks {font-size: 8pt;} 
+a.quotes_show {}
+span.quotes_count{}
+div.quotes_list{display: none;}
+
+p.comment_perelink{font-size: 8pt;}
+
+p.tips{display: none;}
+div.comments_content {}
+
+/* перелинковка комментов ответ-вопос (родитель-потомок) */
+div.comment_perelinks ul {}
+div.comment_perelinks li {}
+
+div.comment_answers{}
+div.comment_child_disc{font-size: 8pt; font-weight: bold;}
+div.comment_child_disc li {}
+
+div.parent_out{}
+div.answers_out{}
+
+input.cancel_move {display: none;}
+.parent_form {display: none;}
+.t_parent_form {width: 100%}
+.t_parent_form input {width: 100%}
+.t_parent_form td.t1 {font-size: 8pt; font-weight: bold; width: 150px}
+.button_cancel {float: right;}
+
+div.select_disc {font-size: 8pt; width: 100%}
+
+/* кнопки голосования, жалоб, спасибо */
+.d_loader{display: none;}
+.d_loader_bad{display: none;}
+.d_result{display: none; font-size: 8pt;}
+.d_result_bad{display: none; font-size: 8pt;}
+
+.dankes{float: left; padding-left: 5px;}
+
+.d_button_danke{}
+.d_button_bad{}
+
+.danke_count{}
+.bad_count{}
+
+.votes{font-size: 8pt; float: left;} 
+.vote_loader{display: none;}
+.vote_count{}
+.vote_result{display: none;}
+
+/* страница благодарностей*/
+div.page_user_dankes{}
+div.page_user_dankes h3 {font-size: 10pt; background: #E8E8E8;}
+
+
+
+.ес {min-height: 100px;} 
+
+/* categorys  */
+.table_forum{width: 100% ; font-size: 10pt;}
+.table_forum th {font-weight: bold; background: #E8E8E8;}
+.table_forum tr.title {font-size: 8pt; font-weight: bold; background: #F0FFFF; text-align: center;}
+.table_forum tr.cur-cat {background: #FFFCCF;}
+.table_forum td.cat-link {width: 70%}
+span.category_title {margin-left: 5px; font-size: 10pt;}
+span.category_desc {margin-left: 5px; font-size: 8pt;}
+
+
+/* discussions */
+table.disc_menu_top {width: 100%; font-size: 8pt; font-weight: bold;}
+table.disc_menu_top td { border-style: hidden; border:0}
+
+
+.disc_menu_buttom {font-size: 8pt; font-weight: bold; float: right}
+
+.table_discussions{width: 100% ; font-size: 10pt;}
+.table_discussions th {font-size: 8pt; font-weight: bold; background: #E8E8E8;}
+.table_discussions td.disc_title {background: #FFFCCF;}
+.table_discussions td.disc_title p {padding: 0 0 0 0; margin: 0 0 0 0;}
+.table_discussions td.comm_count {background: #F0FFFF ;}
+.table_discussions td.comm_count p {padding: 0 0 0 0; margin: 0 0 0 0;}
+.table_discussions td.views {background: #F0F8FF;}
+.table_discussions td.comm_last {background: #F5FFFA;}
+
+.disc_watch_status{font-weight: bold; color: red}
+.disc_status{font-weight: bold; color: red; float: right}
+.disc_parent{margin-left: 5px; font-weight: bold; background: silver; color: green}
+.disc_need_approved{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_closed{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_private{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_you_autor{margin-left: 5px; font-weight: bold; background: silver; color: blue}
+.disc_pages_links {float: right}
+
+
+/* профили  */
+.table_profiles{width: 100% ; font-size: 10pt;}
+.table_profiles th {font-size: 8pt; font-weight: bold; background: #E8E8E8;}
+
+
+/* лог  */
+.log_comment {font-size: 8pt;}
+
+
+/* форма логина */
+div.type_loginform div.loginform {margin: 10px auto 10px auto; background: #fcfcff; padding: 10px 15px; border: #dce0e7 solid 1px; line-height: 1.2em;  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; behavior: url(/PIE.php); }
+div.type_loginform form.flogin {color: #808080; font-weight: bold;}
+div.type_loginform form.flogin span {}
+div.type_loginform form.flogin input.flogin_user, div.type_loginform form.flogin input.flogin_password {width:100%;}
+div.type_loginform form.flogin input.flogin_user:focus, div.type_loginform form.flogin input.flogin_password:focus {}
+div.type_loginform form.flogin input.flogin_user {}
+div.type_loginform form.flogin input.flogin_submit {}
+div.type_loginform form.flogin input.flogin_submit:hover {}
+
+div.type_loginform div.login-form-auth {clear: both; margin: -26px 0 15px 0; font-size: .8em; text-align: right;}
+div.type_loginform p.flogin_submit {}
+div.type_loginform p.header {text-align: center; font-size: 1.2em; background: #959595; padding: 3px; color: white;}
+div.type_loginform div.form-end {text-align: right; font-size: .9em;}
+
+/* плагин форма логина */
+div.widget form.flogin input.flogin_user, div.widget form.flogin input.flogin_password {width: 95%;}
+div.widget form.flogin input.flogin_submit {margin-top: 7px;}
+
+/* форма поиска */
+input.s {cursor: pointer;}
+input.submit {cursor: pointer; }	
+
+
+/* COMMENT FORM */
+div.comment-form {}
+
+div.comments-auth {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid #C0C0C0; background: #F0F0F0;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php); }
+
+div.comment-form div.comments-noreg {}
+div.comment-form div.comments-reg {margin: 0;}
+div.comment-form div.sep {margin-top: 10px; padding-top: 5px; border-top: 1px solid #AAAAAA;}
+
+div.comment-form div.comments-textarea {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid #C0C0C0; background: #F0F0F0;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php); }
+
+table.no-border, table.no-border td {border: none; padding: 0; vertical-align: top; border-collapse: collapse; border-spacing: 0;}
+div.comment-form table {width: 100%;}
+div.comment-form td {padding: 2px;}
+div.comment-form td.t1 {width: 85px; text-align: right;}
+div.comment-form td.t2 input {width: 100%;}
+div.comment-form p.hint {margin: 0 0 5px 90px; line-height: 1.2em; color: #404040; font-size: .9em; font-style: italic;}
+div.comment-form p.radio {font-weight: bold;}
+
+div.comment-form textarea {width: 99%; margin: 3px;}
+*html div.comment-form textarea {width: 95%; margin: 3px;}
+
+div.comment-form p.you-comment {font-weight: bold;}
+
+div.comment-form img {position: relative; top: 7px; }
+
+div.comment-form .comment_button input {margin: 0px; padding: 0 5px; fon1t-size: 8pt;}
+
+div.comment-form div.comments-user {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid #C0C0C0; background: #F0F0F0;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php); }
+
+div.comment-ok {background: #40A040; color: white; padding: 10px; text-align: center; font-weight: bold;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }
+div.comment-error {background: #FF4040; color: white; padding: 10px; text-align: center; font-weight: bold;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }
+
+/* infoblocks */
+div.closed {background: #F6BFB7 url("../default/images/closed.png") no-repeat 10px 10px; margin: 4px 0 7px 0; padding: 10px 10px 10px 40px; min-height: 24px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }
+div.rate_closed {background: #F6BFB7 url("../default/images/profiles.png") no-repeat 10px 10px; margin: 4px 0 7px 0; padding: 10px 10px 10px 40px; min-height: 24px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }

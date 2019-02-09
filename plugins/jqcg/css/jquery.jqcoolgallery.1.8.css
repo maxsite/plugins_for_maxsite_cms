@@ -1,0 +1,375 @@
+/*
+ * jqCoolGallery
+ * 
+ * Version: 1.8
+ * Requires jQuery 1.5+
+ * Docs: http://www.jqcoolgallery.com
+ * 
+ * (c) copyright 2011-2012, Redtopia, LLC (http://www.redtopia.com). All rights reserved.
+ * 
+ * Licensed under the GNU General Public License, version 3 (GPL-3.0)
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3 of the License.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+.jqcoolgallery-desc {display:none;}
+
+/* The entire gallery */
+.jqcoolgallery {
+	float:left;
+	background-repeat:no-repeat;
+	background-position:center center;
+	outline:none;
+}
+
+.jqcg-preloader {  
+	background:url('img/loading.gif') center center no-repeat;
+	display:inline-block;  
+}
+
+.jqcg-failed {  
+	background:url('img/error.gif') center center no-repeat;
+	display:inline-block;  
+	border: 1px solid #ccc;
+}
+
+
+/* Galleries */
+.jqcg-gallery {
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+}
+
+.jqcg-gallery-caption	{
+	display:none;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:black;
+	color:white;
+	z-index:1001;
+}
+.jqcg-gallery-caption-content		{font-size:1em; line-height:1.2em; padding:10px;}
+.jqcg-gallery-caption-content > *	{margin-bottom:0;}
+
+.jqcg-gallery-caption-title {font-weight:bold; margin-bottom:0.4em !important;}
+.jqcg-gallery-caption-desc {}
+
+.jqcg-gallery-hover {cursor:pointer !important;}
+.jqcg-gallery-hover-expand {}
+
+/* Gallery items */
+.jqcg-gallery-item {
+	position:relative; 
+	float:left; 
+	display:block;
+	margin-right:10px; 
+	margin-bottom:10px;
+	position:relative;
+}
+.jqcg-gallery-item-last	{margin-right:0 !important;}
+.jqcg-gallery-item-caption {display:none;}
+
+/* Viewer */
+.jqcg-viewer {float:left; width:100%;}
+.jqcg-viewer-image-wrapper {
+	clear:left;
+	float:left;
+	position:relative;
+	margin:0;
+	padding:0;
+}
+
+.jqcg-step {
+	position:absolute;
+	width:50%;
+	height:100%;
+	top:0;
+	background-repeat:no-repeat;
+}
+.jqcg-step-left {left:0; background-image:url('img/step-left.png'); background-position:left center;}
+.jqcg-step-right {right:0; background-image:url('img/step-right.png'); background-position:right center;}
+
+jqcg-step-hover {}
+
+.jqcg-panel {float:left; text-align:center;}
+.jqcg-viewer-controls {width:100%; margin-bottom:10px; text-align:center;}
+.jqcg-ctl-hover	{cursor:pointer; opacity:1 !important;}
+
+/*.jqcg-viewer-controls {text-align:center; margin-bottom:10px;}*/
+.jqcg-viewer-controls ul {list-style:none; margin:0 auto; padding:0;}
+.jqcg-viewer-controls ul li 	{display:inline; opacity:0.7;}
+
+.jqcg-viewer-gallery-info {
+	clear:left; 
+	float:left; 
+	width:100%;
+	padding:5px 0;
+	margin:0 0 10px 0;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+.jqcg-viewer-gallery-title		{margin:0 0 0.5em 0;}
+.jqcg-viewer-gallery-desc		{margin:0;}
+
+.jqcg-ctl-arrow {}
+.jqcg-ctl-arrow span {
+	display:inline-block;
+	height:16px; 
+	width:18px; 
+	overflow:hidden; 
+	background-image:url('img/controls.png');
+	background-repeat:no-repeat;
+	outline:none;
+	vertical-align:middle;
+}
+
+.jqcg-ctl-prev-gallery			{}
+.jqcg-ctl-prev-gallery span		{background-position:0 0;}
+.jqcg-ctl-prev-gallery.jqcg-ctl-hover span 	{background-position:0 -16px !important;}
+
+.jqcg-ctl-home					{padding:0 2px; text-align:center;}
+
+.jqcg-ctl-next-gallery			{}
+.jqcg-ctl-next-gallery span		{background-position:0 -32px;}
+.jqcg-ctl-next-gallery.jqcg-ctl-hover span 	{background-position:0 -48px !important;}
+
+.jqcg-ctl-button {}
+.jqcg-ctl-button span {
+	display:inline-block;
+	height:16px; 
+	width:16px; 
+	overflow:hidden; 
+	background-image:url('img/controls.png');
+	background-repeat:no-repeat;
+	outline:none;
+	vertical-align:middle;
+}
+
+.jqcg-ctl-rewind span			{background-position:0 -70px;}
+.jqcg-ctl-prev-slide span		{background-position:0 -86px;}
+.jqcg-ctl-play					{}
+.jqcg-ctl-play span 			{background-position:0 -102px;}
+.jqcg-ctl-pause span			{background-position:0 -134px;}
+.jqcg-ctl-next-slide span		{background-position:0 -118px;}
+
+.jqcg-viewer-text-panel {
+	clear:left; 
+	float:left; 
+	width:100%;
+}
+.jqcg-viewer-caption			{text-align:left; margin-bottom:1em;}
+
+.jqcg-viewer-slides {
+	float:left; 
+	list-style:none; 
+	margin:0; 
+	padding:0;
+}
+.jqcg-viewer-pagedesc			{}
+.jqcg-viewer-slide-hover 		{cursor:pointer !important;}
+.jqcg-viewer-pagedesc			{text-align:center;}
+
+
+/* Thumbs */
+.jqcg-thumbs {
+	background-color:#111;
+}
+
+/* Left/Right scroll buttons */
+.jqcg-thumbs-scrollleft, .jqcg-thumbs-scrollright {
+	background-repeat: no-repeat;
+	float:left;
+	z-index: 1001;
+}
+
+.jqcg-thumbs-scrollleft {
+	background-position: left center;
+	background-image: url('img/left-dark.png');
+}
+.jqcg-thumbs-scrollleft-hover {
+	cursor:pointer;
+	background-image: url('images/left-light.png');
+}
+
+.jqcg-thumbs-scrollright {
+	background-position: right center;
+	background-image: url('img/right-dark.png');
+}
+.jqcg-thumbs-scrollright-hover {
+	cursor:pointer;
+	background-image: url('img/right-light.png');
+}
+
+.jqcg-thumbs-bar {
+	overflow:hidden;
+	position:relative;
+}
+.jqcg-thumbs-top,
+.jqcg-thumbs-bottom {
+	float:left;
+	width:100%;
+	overflow:hidden;
+	clear:left;
+	border-top:1px solid #222;
+	border-bottom:1px solid #222;
+	padding:4px;
+}
+.jqcg-thumbs-top {margin:0 0 10px 0;}
+.jqcg-thumbs-bottom {margin:10px 0 0 0;}
+
+.jqcg-thumbs-list {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.jqcg-thumbs-right .jqcg-thumbs-list {
+	float:right !important;
+}
+.jqcg-thumbs-list li {
+	margin: 0; 
+	padding: 0;
+	float: left;
+	text-align:center;
+	border-color: #333;
+	border-style: solid;
+	background: #000;
+}
+.jqcg-thumbs-list li img {
+	position: relative;
+	left: 0; top: 0;
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+}
+.jqcg-thumbs-list li img.jqcg-gallery-thumb-hover {
+	border: none; /* Get rid of border on hover */
+}
+.jqcg-thumb-hover {cursor:pointer !important; z-index:1000; border:1px solid red !important;}
+.jqcg-thumb-hover img {z-index:1000;}
+.jqcg-thumb-current {border:1px solid red !important;}
+.jqcg-thumb-current img	{}
+
+/* List style thumbs */
+.jqcg-thumbs-liststyle {
+}
+.jqcg-thumbs-bottom .jqcg-thumbs {
+	clear:left;
+}
+.jqcg-thumbs-liststyle .jqcg-thumbs-list {
+	float:left;
+}
+.jqcg-thumbs-liststyle .jqcg-thumbs-bar {
+	float:left;
+}
+
+/* Grid style thumbs */
+.jqcg-thumbs-gridstyle {
+	clear:left;
+}
+.jqcg-thumbs-gridstyle .jqcg-thumbs-bar {
+	text-align:center;
+}
+.jqcg-thumbs-gridstyle .jqcg-thumbs-list {
+	margin:0 auto;
+}
+
+.jqcg-thumb-helper {
+	position:absolute; 
+	display:none; 
+	z-index:2000; 
+	padding:5px; 
+	border:1px solid #ccc; 
+	background-color:#fff;
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.5);
+	box-shadow:0 0 3px rgba(0,0,0,0.5);
+}
+.jqcg-helper-arrow {
+	background-image:url('img/helper-arrows.png');
+	background-repeat:no-repeat;
+	z-index:2001;
+	position:absolute;
+}
+
+.jqcg-helper-arrow-up {
+	background-position:center top;
+	left:0;
+	top:0;
+	width:100%;
+	margin:-6px 0 0 0;
+	height:6px;
+}
+
+.jqcg-helper-arrow-down {
+	background-position:center bottom;
+	left:0;
+	bottom:0;
+	width:100%;
+	margin:0 0 -6px 0;
+	height:6px;
+}
+
+/* Tooltip */
+
+.jqcg-tooltip {
+	display:none;
+	position:absolute; 
+	background-color:black; 
+	width:110px; 
+	z-index:1002;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid #555;
+}
+.jqcg-tooltip-content {
+	color:#fff; 
+	font-size:0.85em; 
+	padding:5px; 
+	line-height:1.2em; 
+	text-align:center;
+}
+
+/* Loading */
+.jqcg-loading {
+	position: absolute;
+	top:-1000px;
+	left:-1000px;
+	width: 42px;
+	height: 42px;
+	background: url('img/loading.gif');
+	opacity: 0.9;
+	z-index: 2000;
+}
+
+.jqcg-item-loading {
+	background-image:url('img/loading.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.jqcg-thumb-loading {
+	background-image:url('img/loading-sm.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.jqcg-thumb-error {
+	background-image:url('img/error.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.jqcg-markitup-icon a {
+	background:url('img/jqcg-markitup-icon.png');
+}
+
+
+

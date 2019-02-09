@@ -1,0 +1,149 @@
+/* -------------------------------------------------------------------
+// Сови стили для видео каталога
+// ------------------------------------------------------------------*/
+
+/* tabs menu*/
+
+.video_tabs{
+    border-bottom:solid 1px #dddddd;
+    padding-bottom:1px;
+   	width: 100%;
+}
+        
+ul.video_tabs-nav {
+	margin: 0;
+	padding: 0;
+    height: 30px;
+    width: 100%;
+	list-style: none;
+}
+        
+ul.video_tabs-nav li.elem {
+	float: left;
+	display: inline;
+	position: relative;
+	line-height: 30px;
+	height: 30px;
+	margin: 0 2px 0 0;
+	padding: 0 5px;
+	cursor: pointer;
+	font-size: .9em;
+	background: #fff;
+	color: #888;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	border:solid 1px #dddddd;
+}
+        
+ul.video_tabs-nav li.elem:hover,
+ul.video_tabs-nav li.video_tabs-current {
+	background: #DDD;
+	color: black;
+}
+
+/* table */
+
+table th,
+table td {
+  border: 1px solid #d2d2d2;
+  padding: 2px 3px;
+  vertical-align: top;
+}
+table th {
+  background: #fff;
+  font-weight: bold;
+}
+
+/* Main Styles */
+
+div.video_page_only {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px silver dotted;
+}
+
+div.video_page_only h2 {
+  margin-top: 30px;
+}
+
+div.video_info {
+  font-size: 0.8em;
+  color: gray;
+  margin: 0 0 15px 0;
+}
+
+div.video_info span {
+  font-weight: bold;
+}
+
+div.video_info h1 a{
+	text-decoration: underline;
+}
+
+div.video_info_edit span{
+	padding-right:10px;
+}
+
+div.video_info_cuttext p{}
+
+div.video_info_date span{
+	padding-right:5px;
+}
+
+.video_break {
+  clear: both;
+}
+
+div.video_info_copyright{
+	font-size:10px;
+	color:#555555;
+	text-align:right;
+}
+
+div.video_leave_a_comment {
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 8px;
+  background: #F0F0F0;
+}
+
+div.video_comments {
+  margin: 20px 0 0 0;
+}
+
+div.video_comments ul,
+div.video_comments div.video_comments ol {
+  margin: 10px 0 20px 0;
+}
+div.video_comments li {
+  margin: 0 0 20px 30px;
+}
+div.video_comments li span {
+  font-style: italic;
+}
+div.video_comments div.video_comment_info {
+  background: #F0F0F0;
+  padding: 3px 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+div.video_comments blockquote {
+  margin-left: 0;
+  padding: 10px;
+  border-left: 2px gray solid;
+}
+
+div.video_comments_content{}
+
+div.video_please_login{
+  border:solid 1px #DBE0E4;
+  padding:10px;
+  background:#FFFFE1;
+}
+
+div.video_social{
+  padding-top: 20px;
+  font-size: 12px;
+}

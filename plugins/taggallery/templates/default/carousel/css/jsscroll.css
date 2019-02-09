@@ -1,0 +1,61 @@
+  
+        
+/*_____________________________________________ Start - Projects - jCarouselLiteDemo _____________________________________________*/
+
+
+    #jCarouselLiteDemo .digg {
+        position: absolute;
+        left: 610px;
+        top: 110px;
+    }
+
+    #jCarouselLiteDemo .carousel a.prev, #jCarouselLiteDemo .carousel a.next {
+        display: block;
+        width: 30px;
+        height: 143px;
+        text-decoration: none;
+        background: url("images/imageNavLeft.gif") left 60px no-repeat;
+    }
+        #jCarouselLiteDemo .carousel a.next {
+            background: url("images/imageNavRight.gif") right 60px no-repeat;
+        }
+            #jCarouselLiteDemo .carousel a.next:hover {
+                background-image: url("images/imageNavRightHover.gif");
+            }
+            #jCarouselLiteDemo .carousel a.prev:hover {
+                background-image: url("images/imageNavLeftHover.gif");
+            }    
+            #jCarouselLiteDemo .carousel a:hover, #jCarouselLiteDemo .carousel a:active {
+                border: none;
+                outline: none;
+            }                 
+
+
+    #jCarouselLiteDemo .carousel .jCarouselLite {
+        border: 0px solid lightgray;
+     /*   float: left; */
+  /*      background-color: #white;*/
+        
+        /* Needed for rendering without flicker */
+        position: relative;
+        visibility: hidden;
+        left: -5000px;
+        height: 170px;
+    }
+
+
+/*        #jCarouselLiteDemo .carousel li img{
+            background-color: #fff;
+            width: 150px;
+            height: 118px;
+            margin: 10px 0px 0px 0px;
+            border: 0px;
+        }
+
+*/
+
+
+            
+/*_____________________________________________ End - Projects - jCarouselLiteDemo _____________________________________________*/
+
+            

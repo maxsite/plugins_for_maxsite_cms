@@ -1,0 +1,12 @@
+input.description_file {width: 300px; margin: 3px;}
+div.upload_file {margin-bottom: 20px;}
+div.load_tips {
+  font-size: 0.8em;
+  color: gray;
+  margin: 0 0 15px 0;
+}
+.upl_message {
+  background-color: red;
+}
+
+div.upload_settings {margin-top: 20px;}

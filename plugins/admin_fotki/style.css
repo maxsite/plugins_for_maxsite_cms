@@ -1,0 +1,163 @@
+.visible { display: none; }
+
+div.albums { width: 100%; }
+
+div.album { width: 200px; height: 150px; 
+           float: left; display: inline; 
+		   border-left: 1px solid #CCCCCC; 
+		   border-top: 1px solid #CCCCCC; 
+		   border-right: 2px solid #CCCCCC; 
+		   border-bottom: 2px solid #CCCCCC; 
+		   margin: 10px;	
+		   position: relative;
+		   background: url(images/album.png) no-repeat center center;
+		}
+
+.album-control { position: absolute; bottom: 0; background: #EEEEEE; width: 100%; text-align: right; }
+.album-control a { margin: 4px; cursor: hand; }
+
+#album_edit {
+	d1isplay: none; /*--по умолчанию скрыты--*/
+	background: #fff;
+	padding: 20px;
+	border: 20px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z1-index: 99999;
+	/*--CSS3 Тени для Блока--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--CSS3 Закругленные углы--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+ };
+
+ img.btn_close {
+	float: right;
+	margin: -55px -55px 0 0;
+}
+
+
+#fade { /*--Прозрачный слой фона--*/
+	d1isplay: none; /*--по умолчанию скрыты--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100px; height: 200px;
+	o1pacity: .80;
+	z1-index: 9999;
+}
+
+div.admin-foto-list {
+	width: 100% ;
+	float: left;
+}
+
+div.foto-list {
+	width: 100% ;
+	float: left;
+
+}
+
+div.admin-foto {
+	float: left;
+	display: inline;
+	width: 25%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+}
+
+div.foto {
+	float: left;
+	display: inline;
+	w-idth: 25%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	p1adding-bottom: 4px;
+	b1order-bottom: 2px solid #CCCCCC;
+	b1order-right: 2px solid #CCCCCC;
+}
+
+
+.admin-foto input {
+	position: absolute;
+	top: 0;
+	left: 4px;
+	width: 18px;
+	height: 18px;
+}
+
+.admin-foto-meta {
+
+}
+
+div.last-foto-widget {
+margin-top: 8px;
+text-align: center;
+}
+
+div.last-foto-widget img{
+	height: 150px;
+	width: 150px;
+	
+}
+
+.foto-all { width: 100%; text-align: right; padding-right: 4px; margin-top: 8px;}
+
+.foto-meta {
+	width: 100%;
+}
+
+.foto-metadata {
+	float: left;
+	width: 50%;
+}
+
+.foto-exif {
+	float: right;
+	width: 50%;
+}
+
+.type_albums {
+
+}
+
+.foto-form  p {
+
+}
+
+.foto-form  p span {
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+span#admin-foto-tag a, span#foto-tag a {background: url(images/delete.gif) no-repeat right center; padding-right: 10px; }
+span#admin-foto-tag a:hover, span#foto-tag a:hover {text-decoration: none; cursor: pointer; }
+span#admin-foto-tag, span#foto-tag {margin-right: 6px;}
+
+/*.admin_fotki_last_foto_widget  .widget-content { text-align: center;}*/
+span.add-description { color: #CCCCCC; font-style: italic; cursor: pointer;}
+.description {display: none;}
+
+.type_foto .foto-metadata a#admin-new-tag { font-style: italic; color: #cccccc; }
+.type_foto .foto-metadata a#admin-new-tag:hover {text-decoration: none;}
+
+
+
+div.last-foto-80 { display: inline; margin-right: 6px; margin-bottom: 6px; float: left; }
+div.last-foto-80 a img { height: 80px; width: 80px;}
+
+span.foto-view-count { background: url(images/view.png) no-repeat left center; padding-left: 18px;  color: #AAAAAA; }
+span.foto-comments-count { background: url(images/comment.png) no-repeat left center; padding-left: 18px; margin-left: 10px; color: #AAAAAA; }
+
+div.foto-rate-plus, div.foto-rate-minus {display: none;}

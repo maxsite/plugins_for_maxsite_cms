@@ -1,0 +1,27 @@
+***EN***
+1. Fotorama is free to use on personal websites.
+2. Any other use, including use in corporate, commercial, religious, political and other websites, is prohibited without explicit approval from the author.
+3. Fotorama is distributed “as is”. Website designers, developers and authors use Fotorama at their own risk with no guarantees on the author’s behalf. The author cannot be held responsible for any damages, financial or otherwise, caused by the use of Fotorama.
+
+© Artem Polikarpov, 2011—2012 | http://fotoramajs.com/ | fotoramajs@gmail.com
+
+Includes:
+1. Modernizr 2.0.6 (csstransforms, csstransitions & canvas) | MIT & BSD | http://modernizr.com/
+2. Bez v1.0.10-g5ae0136 | FreeBSD | http://github.com/rdallasgray/bez
+
+Requires jQuery: http://jquery.com/
+
+
+
+***RU***
+1. Фоторама предназначена для неограниченного использования на личных сайтах.
+2. Иное использование Фоторамы, в т. ч. на любых других сайтах (корпоративных, коммерческих, политических, религиозных и др.) возможно только с согласия автора.
+3. Автор не несёт ответственности за моральный, материальный и иной ущерб от использования Фоторамы. Авторы и разработчики используют Фотораму на свой страх и риск, без гарантий со стороны автора.
+
+© Артём Поликарпов, 2011—2012 | http://fotoramajs.com/ru/ | fotoramajs@gmail.com
+
+В коде использованы:
+1. Modernizr 2.0.6 (csstransforms, csstransitions & canvas) | MIT & BSD | http://modernizr.com/
+2. Bez v1.0.10-g5ae0136 | FreeBSD | http://github.com/rdallasgray/bez
+
+Для работы необходим jQuery: http://jquery.com/

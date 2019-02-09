@@ -1,0 +1,5 @@
+﻿Установка:
+1. Создайте в каталоге uploads каталог files_elfinder
+2. В файле application\maxsite\plugins\dv_elfinder\elfinder\php\ = > confelfinder.php вводим свои данные: 
+$domen = 'ВАШ ДОМЕН';
+Если есть вопрсы, обращайтесь http://dvint.ru/

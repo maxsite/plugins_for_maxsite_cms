@@ -1,0 +1,10 @@
+div.upl_message{}
+div.upl_message textarea{ width:70%;}
+div.upl_message img{ width:100px;}
+div.upl_message input { width:40px;}
+div.files_list {background: #E8E8E8; margin: 0;	padding: 0;	list-style: none; max-height: 190px; overflow-y: scroll;}
+div.files_list .file_block{float:left;}
+div.files_list .file_block img {width:100px; padding: 3px;}
+div.files_tips {}
+div.load_tips {}
+

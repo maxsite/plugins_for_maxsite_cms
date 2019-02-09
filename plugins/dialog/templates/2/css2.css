@@ -1,0 +1,95 @@
+
+	div.content {margin: 0; width: 100%; float: none;}
+	div.content-wrap {margin: 10px 20px 10px 20px;}
+	div.sidebar {display: none;} 
+
+div.dialog_page {} 
+
+
+/* начальный блок */
+div.dialog-do {}
+
+/* Кнопки сверху дискуссии */
+div.actions {}
+
+/* Выбор сортировки */
+div.sort_navi {font-size: 10pt;}
+
+/* Хлебные крошки */
+div.breadcrumbs {
+	width: 100% ;
+  font-style: italic;	
+  padding: 5px;  
+} 
+ 
+/* Меню */ 
+div.dialog-menu {font-size: 10pt; margin: 0 0 0 0; padding-left: 10px; padding-right: 10px; background: #E8E8E8;  line-height: 35px;}
+ 
+/*Статистика */ 
+div.statistic {font-size: 10pt; margin: 0 0 0 0; padding-left: 10px; padding-right: 10px; background: #E8E8E8;  line-height: 35px; margin-top: 5px;}
+ 
+.right {float: right;}
+img.center {margin: 0 auto; display: block;}
+.left {float: left;}
+
+input.css_submit {font-size: 10pt; height: 50px; margin-top: 15px;}
+
+div.actions{width: 100%; float:none}
+
+
+/* сетка комментов */
+
+div.comments_list{width: 100% ; float:none; margin-top: 10px;}
+div.comments_list ul, div.comments_list ol {margin: 10px 0 20px 0;}
+div.comments_list li {clear: both; padding-top: 10px;}
+
+div.comment{width: 100% ; float:none; margin-top: 5px;}
+div.comment_user{width: 150px; float: left; background: #E8E8E8; padding: 5px 5px 5px 5px; font-size: 8pt;}
+div.comment_user span.navi_buttons{float: right;}
+div.user_link{font-size: 12pt; font-weight: bold;}
+div.user_avatar{}
+div.user_info{}
+div.user_info p.user_register{}
+div.user_info p.user_comments_count{}
+div.user_info p.user_rate{}
+div.user_info p.user_dankes{}
+
+
+div.comment_info{width: 670px;}
+div.comment_top{}
+div.comment_top span.comment_date{}
+div.comment_top span.comment_title{}
+div.comment_top span.comment_edit{float: right}
+div.comment_top span.comment_no{float: right}
+div.comment_top span.comment_bad{float: right}
+
+div.comment_title{background: #E8E8E8;}
+div.comment_status{font-size: 8pt;}
+div.comment_comment{margin-left: 10px; padding: 5px 5px 5px 5px;}
+
+div.comment_user_podpis{padding: 5px 5px 5px 5px; }
+div.comment_actions{width: 650;}
+div.comment_actions p {float: right}
+div.comment_danke{}
+
+/* перелинковка комментов ответ-вопос (родитель-потомок) */
+p.comment_perelink{font-size: 8pt;} 
+div.answers{}
+div.parent_out{}
+div.answers_out{}
+
+/* кнопки голосования, жалоб, спасибо */
+.d_loader{display: none;}
+.d_loader_bad{display: none;}
+.d_result{display: none; font-size: 8pt;}
+.d_result_bad{display: none; font-size: 8pt;}
+
+.d_button_danke{}
+.d_button_bad{}
+
+.danke_count{}
+.bad_count{}
+
+.danke_list{display: none;}
+
+

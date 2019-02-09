@@ -1,0 +1,166 @@
+/**
+ * (c) Alexander Schilling
+ * http://alexanderschilling.net
+ * https://github.com/dignityinside/dignity_blogs (github)
+ * License GNU GPL 2+
+ */
+
+/* CharCount jQuery Plugin */
+
+form .counter{color:#ccc; font-size: 10px;}
+form .warning{color:#600;}  
+form .exceeded{color:#e00;}
+
+/* Table */
+
+table th,
+table td {
+  border: 1px solid #d2d2d2;
+  padding: 2px 3px;
+  vertical-align: top;
+}
+table th {
+  background: #fff;
+  font-weight: bold;
+}
+
+/* Main Styles */
+
+div.blogs_page_only {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px silver dotted;
+}
+
+div.blogs_page_only h2 {
+  margin-top: 30px;
+}
+
+div.blogs_info {
+  font-size: 0.8em;
+  color: gray;
+  margin: 0 0 15px 0;
+}
+
+div.blogs_info span {
+  font-weight: bold;
+}
+
+div.blogs_info h1 a{
+	text-decoration: underline;
+}
+
+div.blogs_info_edit span{
+	padding-right:10px;
+}
+
+div.blogs_info_blog_name span{
+	padding-right:10px;
+}
+
+div.blogs_info_cuttext p{}
+
+div.blogs_info_text p{
+	padding-bottom:10px;
+}
+
+div.blogs_info_date span{
+	padding-right:5px;
+}
+
+.blogs_break {
+  clear: both;
+}
+
+div.blogs_info_copyright{
+	font-size:10px;
+	color:#555555;
+	text-align:right;
+}
+
+div.blogs_leave_a_comment {
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 8px;
+  background: #F0F0F0;
+}
+
+div.blogs_comments {
+  margin: 20px 0 0 0;
+}
+
+div.blogs_comments ul,
+div.blogs_comments div.blogs_comments ol {
+  margin: 10px 0 20px 0;
+}
+div.blogs_comments li {
+  margin: 0 0 20px 30px;
+}
+div.blogs_comments li span {
+  font-style: italic;
+}
+div.blogs_comments div.blogs_comment_info {
+  background: #F0F0F0;
+  padding: 3px 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+div.blogs_comments blockquote {
+  margin-left: 0;
+  padding: 10px;
+  border-left: 2px gray solid;
+}
+
+div.blogs_comments_content{}
+
+div.blogs_please_login{
+  border:solid 1px #DBE0E4;
+  padding:10px;
+  background:#FFFFE1;
+}
+
+div.blogs_social{
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+/* tabs menu */
+
+.blogs_tabs{
+  border-bottom:solid 1px #dddddd;
+  padding-bottom:1px;
+  width: 100%;
+}
+        
+ul.blogs_tabs-nav {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 100%;
+  list-style: none;
+}
+        
+ul.blogs_tabs-nav li.elem {
+  float: left;
+  display: inline;
+  position: relative;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 2px 0 0;
+  padding: 0 5px;
+  cursor: pointer;
+  font-size: .9em;
+  background: #fff;
+  color: #888;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  border:solid 1px #dddddd;
+}
+        
+ul.blogs_tabs-nav li.elem:hover,
+ul.blogs_tabs-nav li.blogs_tabs-current {
+  background: #DDD;
+  color: black;
+}

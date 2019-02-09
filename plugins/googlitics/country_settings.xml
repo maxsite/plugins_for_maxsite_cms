@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+<settings>
+  <data_type>csv</data_type>
+  <csv_separator></csv_separator>
+  <skip_rows>0</skip_rows>
+  <font></font>
+  <text_size></text_size>
+  <text_color></text_color>
+  <decimals_separator></decimals_separator>
+  <thousands_separator></thousands_separator>
+  <digits_after_decimal></digits_after_decimal>
+  <reload_data_interval></reload_data_interval>
+  <preloader_on_reload></preloader_on_reload>
+  <redraw></redraw>
+  <add_time_stamp>true</add_time_stamp>
+  <precision></precision>
+  <exclude_invisible></exclude_invisible>
+
+  <pie>
+    <x></x>
+    <y></y>
+    <radius>100</radius>
+    <inner_radius>40</inner_radius>
+    <height>13</height>
+    <angle>25</angle>
+    <start_angle></start_angle>
+    <outline_color></outline_color>
+    <outline_alpha></outline_alpha>
+    <base_color></base_color>
+    <brightness_step></brightness_step>
+    <colors>#25A8FF,#74C262,#AF00AF,#ff0f00,#ff6600,#ff9e01,#ffcc00,#676767</colors>
+    <link_target></link_target>
+    <alpha></alpha>
+    <hover_brightness></hover_brightness>
+    <gradient></gradient>
+    <gradient_ratio></gradient_ratio>
+  </pie>
+
+  <animation>
+    <start_time>2</start_time>
+    <start_effect>regular</start_effect>
+    <start_radius></start_radius>
+    <start_alpha></start_alpha>
+    <sequenced>true</sequenced>
+    <pull_out_on_click></pull_out_on_click>
+    <pull_out_time>1.5</pull_out_time>
+    <pull_out_effect>Bounce</pull_out_effect>
+    <pull_out_radius></pull_out_radius>
+    <pull_out_only_one></pull_out_only_one>
+  </animation>
+
+  <data_labels>
+    <radius></radius>
+    <text_color></text_color>
+    <text_size></text_size>
+    <max_width></max_width>
+    <show>
+       <![CDATA[{title}: {percents}%]]>
+    </show>
+    <show_lines></show_lines>
+    <line_color></line_color>
+    <line_alpha></line_alpha>
+    <hide_labels_percent></hide_labels_percent>
+    <avoid_overlapping></avoid_overlapping>
+  </data_labels>
+
+  <group>
+    <percent></percent>
+    <color></color>
+    <title></title>
+    <url></url>
+    <description></description>
+    <pull_out></pull_out>
+  </group>
+
+  <background>
+    <color></color>
+    <alpha></alpha>
+    <border_color></border_color>
+    <border_alpha></border_alpha>
+    <file></file>
+
+  </background>
+
+  <balloon>
+    <enabled></enabled>
+    <color></color>
+    <alpha>80</alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+    <show>
+       <![CDATA[{title}: {percents}%]]>
+    </show>
+    <max_width></max_width>
+    <corner_radius></corner_radius>
+    <border_width></border_width>
+    <border_alpha></border_alpha>
+    <border_color></border_color>
+  </balloon>
+
+  <legend>
+    <enabled></enabled>
+    <x></x>
+    <y></y>
+    <width></width>
+    <color></color>
+    <max_columns></max_columns>
+    <alpha></alpha>
+    <border_color></border_color>
+    <border_alpha></border_alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+    <spacing>9</spacing>
+    <margins>5</margins>
+    <reverse_order></reverse_order>
+    <align>center</align>
+    <key>
+      <size></size>
+      <border_color></border_color>
+    </key>
+    <values>
+      <enabled></enabled>
+      <width></width>
+      <text><![CDATA[]]></text>
+     </values>
+  </legend>
+
+  <export_as_image>
+    <file></file>
+    <target></target>
+    <x></x>
+    <y></y>
+    <color></color>
+    <alpha></alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+  </export_as_image>
+
+  <error_messages>
+    <enabled></enabled>
+    <x></x>
+    <y></y>
+    <color></color>
+    <alpha></alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+  </error_messages>
+
+  <strings>
+    <no_data></no_data>
+    <export_as_image></export_as_image>
+    <collecting_data></collecting_data>
+  </strings>
+
+  <context_menu>
+
+
+
+
+
+
+     <default_items>
+       <zoom>false</zoom>
+       <print>false</print>
+     </default_items>
+  </context_menu>
+
+  <labels>
+
+
+    <label lid="0">
+      <x>0</x>
+      <y>10</y>
+      <rotate>false</rotate>
+      <width></width>
+      <align>center</align>
+      <text_color></text_color>
+      <text_size>14</text_size>
+      <text>
+        <![CDATA[<b>География посетителей</b>]]>
+      </text>
+    </label>
+  </labels>
+
+	
+
+	<!--<data>
+	</data> -->
+</settings>

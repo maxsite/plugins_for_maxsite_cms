@@ -1,0 +1,53 @@
+/*--------------- sape mod --------------------------*/
+/* SAP */
+.sapemod_ads {
+    -width:728px;
+	width: 100%;
+    background:#FFF;
+    border:#1c9d1c solid 1px;
+    margin:20px 0 10px 0;
+}
+
+
+.sapemod_ads p {
+    text-align:left;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.sapemod_ads span, .sapemod_ads a, .sapemod_ads a:visited, .sapemod_ads a:hover {
+    color:#5a7385;
+    font-size:8pt;
+    text-decoration:none;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    cursor:text;
+	!important;
+}
+.sapemod_ads b {
+    font-size:9pt;
+    cursor:pointer;
+    text-decoration:underline;
+    color:#1a61b0;
+}
+.sapemod_ads small {
+    color:#1c9d1c;
+}
+.sapemod_sub {
+    height:18px;
+    background:url(ads1.gif) no-repeat right bottom;
+}
+
+.sapemod_td {
+	padding: 4px;
+}
+
+.sapemod_cell {
+	text-align: left;
+}
+
+.sapemod_sapeblock {
+}
+
+.sapemod_thumb {
+	margin-right:4px;
+	float: left;
+}
+/*------------------------------------------------------*/

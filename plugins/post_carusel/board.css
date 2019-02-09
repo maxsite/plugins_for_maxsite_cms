@@ -1,0 +1,17 @@
+/* board */
+#board { border: 1px solid #CCCCCC; margin: 0 auto;}
+#board_left {overflow:hidden; padding: 10px 25px 10px 25px;}
+#board_items{padding:5px 0 0}
+#board_body{overflow: hidden;}
+#board_carusel{position:relative;}
+#board_carusel .belt{position:absolute;left:0;top:0;}
+.board_item{overflow:hidden;   }
+#board_body h2{ margin:0 0 27px; padding:0; }
+a.cpict{display:block;float:left;margin:0 1.25em 1.25em 0}
+a.cpict img{ border: 2px solid #CCCCCC; border-radius: 4px; -moz-border-radius: 4px;}
+#board_carusel_nav{margin: 0 auto; padding-top: 4px;}
+#board_carusel_nav li{display: inline;list-style:none; margin-left: 2px;}
+#board_carusel_nav a{ display:inline-block; background:url(img/opencircle.png) no-repeat; width:15px; padding: 7px 0; text-decoration:none}
+#board_carusel_nav a.selected {background:url(img/closedcircle.png) no-repeat; }
+#board_carusel_nav a:hover{background:url(img/graycircle.png) no-repeat; }
+.brdcar { text-align: center; }

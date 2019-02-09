@@ -1,0 +1,144 @@
+div.gallery_page
+ {} 
+ 
+/* Хлебные крошки */
+div.breadcrumbs {
+	width: 100% ;
+  font-style: italic;	
+  background: #E8E8E8;  
+  padding: 5px;  
+} 
+ 
+/* Альбомы на главной */
+div.albums {
+	width: 100% ;
+}
+
+div.album-title {
+	width: 100% ;
+	float: left;
+  font-size: 1.2em;	
+  font-weight: bold;  
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+div.album {
+	width: 100% ;
+	float: left;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+div.album-thumb {
+	float: left;
+  width: 22%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+div.album-desc {
+	float: left;
+	width: 38%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+div.album-gallerys {
+	float: left;
+	width: 30%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+div.other_gallerys {
+	width: 100% ;
+	float: left;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+/* Галереи */
+div.gallerys-all {
+	width: 100% ;
+	float: left;
+}
+
+div.gallery-all {
+	float: left;
+	display: inline;
+	width: 30%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-top: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;	p1adding-bottom: 4px;
+	b1order-bottom: 2px solid #CCCCCC;
+	b1order-right: 2px solid #CCCCCC;
+}
+
+div.gallery-all-thumb {
+  text-align: center;
+}
+
+div.gallery-all-info {
+  text-align: center;
+  display: block; 
+}
+
+/* Картинки */
+div.pictures {
+	width: 100% ;
+	float: left;
+}
+
+div.picture {
+	float: left;
+	display: inline;
+	width: 28%;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-top: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;	padding: 4px;
+	b1order-bottom: 2px solid #CCCCCC;
+	b1order-right: 2px solid #CCCCCC;
+}
+
+
+div.picture-title {
+  text-align: center;
+}
+
+div.picture-link {
+  text-align: center;
+
+}
+
+div.gallery-content {
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+  b1order: 1px solid #C0C0C0;	
+	padding-bottom: 4px;
+	border-bottom: 2px solid #CCCCCC;
+	border-top: 2px solid #CCCCCC;
+}
+
+
+div.picture-gallerys {
+  text-align: center;
+  font-style: italic;
+  font-size: .8em;
+}
+
+
+span.picture-tags { background: url(images/gall.png) no-repeat left center; padding-left: 18px; font-size: .8em; color: #AAAAAA; }
+span.picture-view-count { background: url(images/view.png) no-repeat left center; padding-left: 18px;  color: #AAAAAA; }
+span.picture-comments-count { background: url(images/comment.png) no-repeat left center; padding-left: 18px; margin-left: 10px; color: #AAAAAA; }
+
+.right {float: right;}
+img.center {margin: 0 auto; display: block;}
+.left {float: left;}

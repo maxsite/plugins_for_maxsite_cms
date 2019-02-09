@@ -1,0 +1,32 @@
+/* 
+   ваши стили оформления элементов плагина - блока «Содержание» и т.п.
+   уберите знак подчёркивания в имени файла, чтобы файл начал подключаться при работе плагина
+*/
+
+.contents {
+	margin: 0px 0px 10px;
+	padding: 5px 6px;
+}
+
+.type_page .contents {
+	border: 1px dotted #AB0000;
+	background: none repeat scroll 0% 0% #FFFCFC;
+	font-size: 90%;
+	border-radius: 5px;
+}
+
+.widget .contents {
+	font-size: 90%;
+}
+
+.type_page .contents p {
+	font-size: 110%;
+	margin:0 0 10px;
+	padding:0;
+	font-weight: bold;
+}
+
+.contents > ul {
+	margin:0 0 0 15px !important;
+	padding:0;
+}

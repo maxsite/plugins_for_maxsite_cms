@@ -1,0 +1,46 @@
+div.comment-reply {text-align: right;}
+div.comment-form-comment {text-align: left;}
+
+div.comments div.comment-info {margin: 0;}
+div.comments div.comments_content {margin: 10px;}
+div.tree-comment {padding: 5px 0px !important; margin: 8px 0 10px 0; border-bottom: 1px solid #CCCCCC;}
+div.comment-form-comment div.comments-user {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid silver; background: #F0F0F0; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php);}
+div.comment-form-comment div.comments-textarea {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid silver; background: #F0F0F0; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php);}
+div.comment-form-comment p.radio {font-weight: bold;}
+div.comment-form-comment td {padding: 2px;}
+div.comment-form-comment td.t1 {text-align: right; width: 85px;}
+div.comment-form-comment td.t2 input {width: 100%;}
+div.comment-form-comment p.hint {color: #404040; font-size: 0.9em; font-style: italic; line-height: 1.2em; margin: 0 0 5px 90px;}
+div.comment-form-comment div.sep {border-top: 1px solid #AAAAAA; margin-top: 10px; padding-top: 5px;}
+div.comment-form-comment p.you-comment {font-weight: bold;}
+
+img.gravatar {border: #DDD solid 1px; padding: 3px; background: white;}
+
+div.comments ul {	overflow: visible; border-bottom: 0;}
+div.comments li span {font-style: normal;}
+div.comments li.users {}
+div.comments li.comusers {}
+div.comments li.anonim {}
+
+ul.tree-comments-level-0 {list-style-type: none; border-bottom: none; border: none; padding: 0;}
+ul.tree-comments-level-0 li {margin-left: 0; margin-bottom: 0;}
+ul.tree-comments-level-0 ul {border: none; list-style-type: none; display: block;}
+ul.tree-comments-level-0 li  div.tree-comment {width: 100%;} /* float: left;}*/
+ul.tree-comments-level-0 li  ul.tree-comments-list-childs {margin: 0 0 0 25px; 	list-style-type: none;}
+
+/*div.tree-comment-avatar {float: left;}*/
+/*div.tree-comment-data {float: left;}	*/
+a.comment-form-button {border-bottom: 2px dashed #CCCCCC; cursor: pointer;} /*display: block; float: right;}*/
+textarea#comments_content {width: 98%;}
+
+span.tree-comment-ip {float: right; margin-right: 5px;}
+
+h3.comments {margin: 0;}
+div.comments div.tabs-box {border: none; background: none; padding: 0px;}
+div.comments ul, div.comments ol {margin: 0;}
+
+div.comments li.users  {}
+div.comments li.comusers {}
+div.comments li.anonim {}
+
+div.comments div.page_comments_count {display:none;}

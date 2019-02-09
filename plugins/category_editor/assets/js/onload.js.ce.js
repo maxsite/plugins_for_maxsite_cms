@@ -1,0 +1,1 @@
+$(document).ready(function(t){setTimeout(function(){open_list_items()},800),setTimeout(function(){start_sortable_category()},900)});

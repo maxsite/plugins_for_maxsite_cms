@@ -1,0 +1,10 @@
+.print a
+{
+	text-decoration:underline;
+}
+.print
+{
+	padding:0 5px 7px 5px;
+	text-align:right;
+	text-decoration:underline;
+}

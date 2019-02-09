@@ -1,0 +1,3 @@
+Создаем каталог: uploads/files_elfinder
+В файле = > elfinder/php/confelfinder.php
+прописываем имя своего домена, примеру $domen = 'name.site';

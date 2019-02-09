@@ -1,0 +1,45 @@
+/* CSS Document */
+ /* Дерево многоуровневое
+  -------------------------------- */
+.in-hov {
+	background-color:#FFF;
+	font-size:12px;
+}
+
+.in-hov:hover {
+	background-color:#CCC;
+}
+
+.in-hov span{
+	/*margin-left:200px;*/
+	float:right;
+	padding-right:200px;
+}
+.tree-div {
+	position:relative;
+}
+div.list-art {
+	/*position:fixed;*/
+	width:300px;
+	height:auto;
+	background-color:#0FF;
+	top:10px;
+	right:5px;
+	
+	
+}
+div.list-art:hover {
+	height: auto;
+}
+
+ul li.page_list_child {
+	color:#06F;
+}
+
+div.load_image {
+	position:absolute;
+	width:30px;
+	height:30px;
+	background-color:#0F6;
+	display:none;
+}

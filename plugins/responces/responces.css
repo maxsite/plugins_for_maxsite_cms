@@ -1,0 +1,8 @@
+div.responces_form table td {border: none;}
+h2.responces { margin: 20px 0 10px 0;}
+table.responces {width: 100%; margin: 5px 0;}
+table.responces td {vertical-align: top;  padding: 5px 20px;}
+table.responces td.header {text-align: right; background: #ccc; color: #222;}
+table.responces td.t1 {width: 100px; text-align: right; background: #eee; padding-right: 10px;}
+table.responces td.t2 {}
+table.responces td.space {padding: 0; height: 10px; border-left: none; border-right: none;}

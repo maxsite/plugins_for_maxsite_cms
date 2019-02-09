@@ -1,0 +1,32 @@
+﻿.check_unit_add1
+		{
+		position:absolute;
+		float:left;
+		width:247px;
+		white-space:nowrap;
+		}
+.input_unit_add1
+		{
+		position:absolute;
+		float:left;
+		height:13px;
+		width:97px;
+		margin-left: 200px;
+		}
+.input_unit_add1 inputText
+		{
+		width:50px !important;
+		}
+.input_unit_add1 input
+		{
+		height:11px;
+		width:40px !important;
+		}
+.page_add
+		{
+		width:300px !important;
+		}
+/*.inputprice
+		{
+		width: 45px;
+		}*/

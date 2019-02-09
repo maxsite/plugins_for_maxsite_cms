@@ -1,0 +1,10 @@
+div.files_block {display: none}
+div.files_list {background: #E8E8E8; margin: 0;	padding: 0;	list-style: none; max-height: 185px; overflow-y: scroll;}
+div.files_list .file_block{float:left;}
+div.files_list .file_block img {width:100px; padding: 3px;}
+div.files_tips {}
+div.load_tips {}
+span.my_files{float:right;}
+
+input.description_file {width: 300px; margin: 3px;}
+

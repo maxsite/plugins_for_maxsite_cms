@@ -1,0 +1,73 @@
+div.profile_block {background: #FFFFBB; border: #6E9FEB 1px solid; margin: 0 0 10px 0; padding: 5px 10px 10px 10px; -moz-border-radius: 10px;}
+div.profile_block p {background: #FFFFBB}
+div.profile_menu {font-size: 8pt; font-weight: bold; margin: 0 0 0 0; padding-left: 10px; margin: 0 0 10px 0; padding-right: 10px; background: #E8E8E8;  line-height: 35px;}
+div.profile_title {font-size: 8pt; margin-bottom: 20px; }
+
+p.center{text-align:center}
+
+div.menu_events {font-size: 8pt; font-weight: bold; padding-top: 10px; padding-left: 10px; margin: 0 0 10px 0; padding-right: 10px;}
+div.menu_events img.link_elem:hover {border-top: 2px solid #CCCCCC;	border-left: 2px solid #CCCCCC;}
+div.menu_events img.cur_elem {border-top: #6E9FEB 1px solid; border-left: #6E9FEB 1px solid; border-right: #6E9FEB 1px solid}
+
+div.events {font-size: 10pt;}
+div.event {border: #6E9FEB 1px solid; margin: 0 0 10px 0; padding: 5px 10px 10px 10px;}
+.event_title {background: #FFFFBB; }
+.event_link {float:right;}
+.event_date {font-size: 8pt; font-weight: bold; color:green; margin-left: 5px;}
+.event_nik {font-weight: bold; margin-left: 5px;}
+.event_title {margin-left: 5px;}
+.event_element {font-weight: bold; color:maroon; margin-left: 5px;}
+.event_comtent {}
+
+.get_events {}
+.result {}
+.loader {display: none; }
+
+/* Картинки */
+div.uploads_users {
+	width: 100% ;
+	clear: both;
+	margin-bottom: 20px;		
+}
+
+div.uploads_pictures {
+	width: 100% ;
+	margin-bottom: 20px;		
+}
+
+div.uploads_picture {
+    text-align: center;
+    background: #FFFFBB;
+	float: left;
+	display: inline;
+	width: 20%;
+	height: 100px;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-top: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;	padding: 4px;
+	b1order-bottom: 2px solid #CCCCCC;
+	b1order-right: 2px solid #CCCCCC;
+}
+
+div.uploads_title {
+  text-align: center;
+}
+
+div.uploads_link {
+  text-align: center;
+}
+
+img.uploads_img
+{
+ height: 75px; 
+}
+
+div.uploads_spoiler div.uploads_text {display: none; position: relative}
+div.uploader {margin-bottom: 20px; margin-top: 20px;}
+
+span.my_files{float:right; margin-top: 10px;}
+
+.profiles_table{width: 100% ; font-size: 10pt;}
+.profiles_table th {font-size: 8pt; font-weight: bold; background: #E8E8E8;}

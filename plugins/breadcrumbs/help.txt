@@ -1,0 +1,5 @@
+Для работы вставьте в ушку content-start  с типом php следующий код:
+<?php
+if (function_exists('breadcrumbs'))
+echo breadcrumbs('<div class="breadcrumbs">','</div>');
+?>

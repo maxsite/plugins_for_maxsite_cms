@@ -1,0 +1,78 @@
+
+div.conteiner {
+	margin: 20px auto;
+	position: relative;
+	border: 5px solid  #CCC;
+}
+
+div.box {
+	width: 100%;
+	height: 100%;
+	position:relative;
+	margin: 0px auto;
+}
+
+
+
+#curs {
+	width: 240px;
+	height: 270px;
+	position:absolute;
+	top:10px;
+	left: 20px;
+	box-shadow:none;
+	border: none;
+}
+
+div.formas {
+	position: absolute;
+	top:120px;
+	right:20px;
+}
+
+#pole {
+	font: 14px Arial, sans-serif;
+	color: #757575;
+	width:165px;
+	padding: 5px 10px;
+	border: 2px solid  #CCC;
+	outline: none;
+	border-radius:0px;
+	box-shadow: none;
+}
+
+#desc {
+	font: 14px Arial, sans-serif;
+	color: #585050;
+	width:200px;
+	text-align:center;
+	position: absolute;
+	top:15px;
+	right:20px;
+}
+
+#but {
+	font: 15px Arial, sans-serif;
+	color:#585050;
+	width:190px;
+	padding:10px;
+	background-image:url(../img/grey/normal.png);
+	background-repeat: repeat-x;
+	cursor:pointer;
+	border: 1px solid #C0C0C0;
+	border-radius:0px;
+	box-shadow: none;
+}
+
+#but:hover {
+	font: 15px Arial, sans-serif;
+	color:#585050;
+	width:190px;
+	padding:10px;
+	background-image:url(../img/grey/hover.png);
+	background-repeat: repeat-x;
+	cursor:pointer;
+	border: 1px solid #C0C0C0;
+	border-radius:0px;
+	box-shadow: none;
+}

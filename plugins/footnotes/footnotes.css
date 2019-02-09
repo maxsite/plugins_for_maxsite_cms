@@ -1,0 +1,15 @@
+div.footnotes {
+  clear: both;
+  border-top: 1px solid gray;
+  padding-left: 1em;
+  margin-top: 1em;
+}
+
+div.fn {
+  font-size: 90%;
+}
+
+a.fn_bot {
+  font-weight: bold;
+}
+

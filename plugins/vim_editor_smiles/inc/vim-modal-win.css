@@ -1,0 +1,44 @@
+/* vizr.ru dialog's css  */
+.modal-bg {
+	background:#000000 none repeat scroll 0 0;
+	display:none;
+	height:100%;
+	left:0;
+	opacity:0.6;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.modal-window {
+	background:white none repeat scroll 0 0;
+	border:2px solid #999999;
+	display:none;
+	left:50%;
+	margin-left:-200px;
+	padding-top:10px;
+	min-height:100px;
+	position:fixed;
+	top:100px;
+	width:500px;
+	z-index:10;
+	opacity:1.0;
+}
+.modal-window button {
+	background:#FFAFAF none repeat scroll 0 0;
+	border:1px solid black;
+	color:white;
+	cursor:pointer;
+	font-weight:bold;
+	height:1.5em;
+	position:absolute;
+	right:20px;
+	top:-12px;
+	width:1.7em;
+}
+#modal_window {
+	background:#FFFFFF none repeat scroll 0 0;
+	height:300px;
+	overflow:auto;
+	padding:5px;
+	opacity:1.0;
+}

@@ -1,0 +1,44 @@
+div.tabs {
+	margin: 10px 0;
+}
+
+div.tabs .editurl {
+	font-size:0.8em;
+}
+
+div.tabs-box {
+	background-color: #FFFFFF;
+}
+
+ul.tabs-nav {
+	margin-bottom:5px;
+}
+
+ul.tabs-nav li.elem {
+	background-color: #E0E0E0;
+	margin: 5px 0 5px 5px;
+	padding: 7px 15px;
+	border: none;
+	color: #444;
+}
+
+ul.tabs-nav li.tabs-current, ul.tabs-nav li.tabs-current:hover {
+	background-color: #E18B0E !important;
+	color: #FFFFFF !important;
+}
+
+ul.tabs-nav li.elem:hover {
+	background: #CCC; 
+	color: #444;
+}
+
+div.info {
+    color: #111111;
+    font-size: inherit;
+    font-style: inherit;
+    margin: 0;
+}
+
+div.info.my {
+	margin-bottom: 5px;
+}

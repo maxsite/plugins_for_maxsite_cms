@@ -1,0 +1,111 @@
+/* RSS-лента */
+MagpieRSS Object
+(
+    [parser] => 0
+    [current_item] => Array
+        (
+        )
+
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [link] => http://juick.com/nick/2278112
+                    [guid] => http://juick.com/nick/2278112
+                    [title] => @nick:
+                    [description] => сообщение
+                    [pubdate] => Mon, 18 Mar 2013 16:50:15 UT
+                    [slash] => Array
+                        (
+                            [comments] => 0
+                        )
+
+                    [comments] => http://juick.com/2278112
+                    [wfw] => Array
+                        (
+                            [commentrss] => http://rss.juick.com/2278112
+                        )
+
+                    [summary] => сообщение
+                )
+
+			...
+
+            [N] => Array
+                (
+                    [link] => http://juick.com/nick/1222398
+                    [guid] => http://juick.com/nick/1222398
+                    [title] => @nick:
+                    [description] => сообщение
+                    [pubdate] => Thu, 17 Feb 2011 17:29:43 UT
+                    [slash] => Array
+                        (
+                            [comments] => 0
+                        )
+
+                    [comments] => http://juick.com/1222398
+                    [wfw] => Array
+                        (
+                            [commentrss] => http://rss.juick.com/1222398
+                        )
+
+                    [summary] => сообщение
+                )
+
+        )
+
+    [channel] => Array
+        (
+            [title] => nick - Juick
+            [link] => http://juick.com/nick/
+            [description] => Microblog by nick at Juick.com
+            [lastbuilddate] => Mon, 18 Mar 2013 16:50:15 UT
+            [tagline] => Microblog by nick at Juick.com
+        )
+
+    [textinput] => Array
+        (
+        )
+
+    [image] => Array
+        (
+            [url] => http://i.juick.com/a/2247.png
+            [title] => nick - Juick
+            [link] => http://juick.com/nick/
+        )
+
+    [feed_type] => RSS
+    [feed_version] => 2.0
+    [encoding] => UTF-8
+    [_source_encoding] => 
+    [ERROR] => 
+    [WARNING] => 
+    [_CONTENT_CONSTRUCTS] => Array
+        (
+            [0] => content
+            [1] => summary
+            [2] => info
+            [3] => title
+            [4] => tagline
+            [5] => copyright
+        )
+
+    [_KNOWN_ENCODINGS] => Array
+        (
+            [0] => UTF-8
+            [1] => US-ASCII
+            [2] => ISO-8859-1
+        )
+
+    [stack] => Array
+        (
+        )
+
+    [inchannel] => 
+    [initem] => 
+    [incontent] => 
+    [intextinput] => 
+    [inimage] => 
+    [current_namespace] => 
+    [from_cache] => 1
+)

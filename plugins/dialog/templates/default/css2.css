@@ -1,0 +1,438 @@
+	div.content {margin: 0; width: 100%; float: none;}
+	// div.content-wrap {margin: 10px 20px 10px 20px;}
+	div.sidebar {display: none;} 
+
+div.dialog_page {} 
+
+
+/* начальный блок */
+div.dialog-do {}
+
+// div.dialog_page_content{min-height:800px;}
+
+
+/* Выбор сортировки */
+div.sort_navi {font-size: 8pt; height: 29px; margin-bottom: 10px; padding: 1px 10px 0 10px;
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background: #D4E1F5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+    background: -o-linear-gradient(top, #E6F5F8, #D4E1F5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5); /* IE10 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 ); /* IE6-8 */
+	background: linear-gradient(top, #E6F5F8, #D4E1F5); /* CSS3 */ 
+	-o-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #CCC;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #CCC;}
+
+/* Хлебные крошки */
+div.breadcrumbs {font-style: italic; padding: 3px 5px; border: 1px solid #DFDFDF; background-color: #EBF2F8; margin-bottom: 5px;}
+ 
+/* Меню */ 
+div.dialog-menu {font-size: 8pt; margin: 0 0 10px; padding-left: 10px; padding-right: 10px; line-height: 25px; 
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background: #D4E1F5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+    background: -o-linear-gradient(top, #E6F5F8, #D4E1F5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5); /* IE10 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 ); /* IE6-8 */
+	background: linear-gradient(top, #E6F5F8, #D4E1F5); /* CSS3 */ 
+	-o-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #CCC;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #CCC;}
+ 
+/*Для нерегистрир */ 
+div.login_register {font-size: 8pt; font-weight: bold; margin-top: 10px; 
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background: #D4E1F5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+    background: -o-linear-gradient(top, #E6F5F8, #D4E1F5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5); /* IE10 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 ); /* IE6-8 */
+	background: linear-gradient(top, #E6F5F8, #D4E1F5); /* CSS3 */ 
+	-o-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #CCC;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #CCC;} 
+div.login_register table {width: 100%; text-align: center; padding: 0; margin: 0; vertical-align: middle; border-style: hidden;}
+div.login_register table td.info {border: none; width: 70%; color: #0030EE;} 
+div.login_register table td.action {vertical-align: middle; border: none; font-size: 10pt;} 
+ 
+/*Статистика */ 
+div.dialog_page div.statistic {font-size: 8pt; margin: 0 0 0 0; padding-left: 10px; padding-right: 10px; line-height: 30px; margin-top: 10px; 
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background: #D4E1F5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+    background: -o-linear-gradient(top, #E6F5F8, #D4E1F5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5); /* IE10 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 ); /* IE6-8 */
+	background: linear-gradient(top, #E6F5F8, #D4E1F5); /* CSS3 */ 
+	-o-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #CCC;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #CCC;} 
+ 
+.right {float: right;}
+img.center {margin: 0 auto; display: block;}
+.left {float: left;}
+
+input.css_submit {font-size: 10pt; height: 50px; margin-top: 0;}
+
+
+
+/* сетка комментов */
+
+div.comments_list{width: 100% ; float:none; margin-top: 10px;
+	-o-box-shadow: 0 7px 7px #DFDFDF;
+	-webkit-box-shadow: 0 7px 7px #DFDFDF;
+	-moz-box-shadow: 0 7px 7px #DFDFDF;
+	box-shadow: 0 7px 7px #DFDFDF;}
+div.comments_list ul, div.comments_list ol {margin: 10px 0 20px 0;}
+div.comments_list li {clear: both; padding-top: 10px; border-bottom: 2px solid #CCCCCC;}
+
+table.disc-comm div.comment_top {margin-left: 2px; margin-right: 2px;}
+table.disc-comm {width: 100%; border-collapse: collapse; border-spacing: 0; 
+	-o-box-shadow: 0 0 7px #DFDFDF;
+	-webkit-box-shadow: 0 0 7px #DFDFDF;
+	-moz-box-shadow: 0 0 7px #DFDFDF;
+	box-shadow: 0 0 7px #DFDFDF;}
+table.disc-comm td {border-left: 1px solid #DDD; border-right: 1px solid #DDD; border-top: 1px solid #DDD; padding: 2px 3px; vertical-align: top; border-bottom: 2px solid #FFA500;}
+
+div.comment{position:relative; width: 100% ; float:none; margin-top: 5px; height:100%;}
+
+td.comment_user{width: 100px; background: #E8EEF8; font-size: 8pt; border-right: none !important;}
+div.user_link{font-size: 8pt; font-weight: bold; text-align: center;}
+div.user_link img {padding: 5px 5px 5px 5px;}
+div.user_avatar{text-align: center; margin: 3px;}
+div.user_info{}
+div.user_info p {margin: 0 0 0 0; }
+div.user_info p.user_register{}
+div.user_info p.user_comments_count{}
+div.user_info p.user_rate{}
+div.user_info p.user_dankes{}
+div.user_info p.user_links{margin: 5px 5px 5px 5px;}
+
+/* div.comment_info{width: 100px;} */
+
+td.comment_info {padding: 0 !important; border-left: none !important;}
+table.table_comment{ border-style: hidden; width: 100%; margin: 0; border:0}
+table.table_comment td { border-style: hidden; padding: 0;  border:0; vertical-align: middle;}
+table.table_comment td.bottom {vertical-align: bottom;}
+
+div.comment_top{background: #E8EEF8; padding: 0 2px 3px;}
+div.comment_top span.comment_date{font-size: 8pt; font-weight: bold; padding-left: 5px;}
+div.comment_top span.comment_title{}
+div.comment_top span.comment_edit{float: right}
+div.comment_top span.comment_no{float: right; padding-right: 5px;}
+div.comment_top span.comment_bad{float: right}
+
+table.comment_status {border:0;} 
+div.comment_status{font-size: 8pt; padding-left: 10px;}
+div.comment_status span {margin: 5px 5px 5px 5px; color:red; font-weight: bold;}
+div.comment_status input {font-size: 7pt;}
+
+
+div.comment_comment{font-size: 12px; margin-left: 10px; padding: 5px 5px 5px 5px; min-height:80px;}
+div.comment_comment blockquote {margin: 10px 10px; padding: 0 4px 0 6px; border: 1px solid #DDD;
+border-left: 4px solid #DDD; background: #F7F5FD;}
+
+table.comment_footer {width: 100%; border:0; border-top: 1px dashed #3232FF;}
+td.comment_user_podpis{padding: 2px 5px !important; font-size: 8pt; color: #00F;}
+
+td.comment_actions{text-align: right;}
+td.comment_actions p {float: right; margin-right: 5px;}
+.actions{margin-right: 5px;}
+
+table.comment_bottom{width: 98.5%; margin: 2px 0 0 5px; border-style: hidden;}
+table.comment_bottom td {margin: 0 0 0 0; }
+
+
+span.navi_buttons{}
+span.navi_buttons img{margin-left: 2px; margin-right: 2px; margin-bottom: 2px;}
+.navi_button_left{float: left}
+// .navi_button_right{float: right}
+
+span.comment_danke{font-size: 8pt;}
+
+div.comment_danke {font-size: 8pt;}
+a.danke_show {}
+span.danke_count{}
+span.danke_list{display: none;}
+
+div.comment_perelinks {font-size: 8pt;} 
+a.quotes_show {}
+span.quotes_count{}
+div.quotes_list{display: none;}
+
+p.comment_perelink{font-size: 8pt; padding-left: 9px;}
+
+p.tips{display: none;}
+div.comments_content {}
+
+/* перелинковка комментов ответ-вопрос (родитель-потомок) */
+div.comment_perelinks ul {}
+div.comment_perelinks li {}
+
+div.comment_answers{padding: 0 8px;}
+div.comment_child_disc{font-size: 8pt; font-weight: bold;}
+div.comment_child_disc li {}
+
+div.parent_out{}
+div.answers_out{}
+
+input.cancel_move {display: none;}
+.parent_form {display: none;}
+.t_parent_form {width: 100%}
+.t_parent_form input {width: 100%}
+.t_parent_form td.t1 {font-size: 8pt; font-weight: bold; width: 150px}
+.button_cancel {float: right;}
+
+div.select_disc {font-size: 8pt; width: 100%}
+
+/* кнопки голосования, жалоб, спасибо */
+.d_loader{display: none;}
+.d_loader_bad{display: none;}
+.d_result{display: none; font-size: 8pt;}
+.d_result_bad{display: none; font-size: 8pt;}
+
+.dankes{float: left; padding-left: 5px;}
+
+.d_button_danke{}
+.d_button_bad{}
+
+.danke_count{}
+.bad_count{}
+
+.votes{font-size: 10pt; float: left; margin: 8px 0 0 10px;} 
+.vote_loader{display: none;}
+.vote_count{}
+.vote_result{display: none;}
+
+/* страница благодарностей*/
+div.page_user_dankes{}
+div.page_user_dankes h3 {font-size: 10pt; background: #E8EEF8; padding: 0 2px 3px;}
+
+
+
+.ес {min-height: 100px;} 
+
+/* categorys  */
+div.tab_forum{border: 1px solid #DFDFDF; margin: 15px 0; 
+	-o-box-shadow: 0 5px 7px #dfdfdf;
+	-webkit-box-shadow: 0 5px 7px #dfdfdf;
+	-moz-box-shadow: 0 5px 7px #dfdfdf;
+	box-shadow: 0 5px 7px #dfdfdf;
+}
+.table_forum{width: 100% ; font-size: 10pt; margin: 0; 
+	-o-box-shadow: 0 0 10px #CCC;
+	-webkit-box-shadow: 0 0 10px #CCC;
+	-moz-box-shadow: 0 0 10px #CCC;
+	box-shadow: 0 0 10px #CCC;
+	}
+
+.table_forum td {border-style: hidden; text-align: center; vertical-align: middle;}
+.table_forum th {color: #369; font-weight: bold; vertical-align: middle; height: 29px; padding: 0; border-style: hidden;
+	background: #D4E1F5; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+    background: -o-linear-gradient(top, #E6F5F8, #D4E1F5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5); /* IE10 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 ); /* IE6-8 */
+	background: linear-gradient(top, #E6F5F8, #D4E1F5); /* CSS3 */ }
+.table_forum tr.title {height: 28px; color: #259; font-size: 8pt; font-weight: bold; background: #E8EEF8; text-align: center;}
+.table_forum tr.cur-cat {background: #F4F6F8; height: 30px;}
+.table_forum td.cat-link:hover {background: #FFFFDA;}
+.table_forum td.cat-link a {color: #0394AF; font-weight: bold; text-decoration: underline;}
+.table_forum td.cat-link a:hover {color: #FF005F;}
+.table_forum td.cat-link {width: 70%; text-align: left;}
+
+span.link_activ {float: right; margin-right: 5px;}
+span.category_title {margin-left: 5px; font-size: 12pt; font-weight: bold; color: black;}
+span.category_title a {color: black;}
+
+span.category_desc {margin-left: 5px; font-size: 8pt;}
+span.cat_disc {margin-left: 5px; color: #cd5b45; font-size: 8pt; background: #E8EEF8;}
+span.cat_disc a:visited {margin-left: 5px; color: #cd5b45;}
+span.cat_disc a {margin-left: 5px; color: #cd5b45;}
+
+/* discussions */
+
+table.disc_menu_top {width: 100%; font-size: 8pt; font-weight: bold; border: 0;}
+table.disc_menu_top td {border:0; margin: 5px 0;}
+table.disc_menu_top td.right{color: #CA4E1D; font-style: italic;}
+
+.disc_menu_buttom {margin: 5px 0 0; font-size: 8pt; font-weight: bold; float: right;}
+
+div.tab_discussions {margin: 15px 0;
+-o-box-shadow: 0 5px 7px #dfdfdf;
+-webkit-box-shadow: 0 5px 7px #DFDFDF;
+-moz-box-shadow: 0 5px 7px #dfdfdf;
+box-shadow: 0 5px 7px #DFDFDF;
+}
+div.tab-dis-wrap {border: 1px solid #DFDFDF;
+-o-box-shadow: 0 0 7px #DDD;
+-webkit-box-shadow: 0 0 7px #DDD;
+-moz-box-shadow: 0 0 7px #DDD;
+box-shadow: 0 0 7px #DDD;
+}
+div.tab-dis-title{color: #369; font-weight: bold; line-height: 24px; height: 29px; text-align: center; 
+	background: #D4E1F5;
+	background: -moz-linear-gradient(top, #E6F5F8, #D4E1F5);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F5F8), color-stop(100%,#D4E1F5));
+	background: -webkit-linear-gradient(top, #E6F5F8, #D4E1F5);
+	background: -o-linear-gradient(top, #E6F5F8, #D4E1F5);
+	background: -ms-linear-gradient(top, #E6F5F8, #D4E1F5);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F5F8', endColorstr='#D4E1F5',GradientType=0 );
+	background: linear-gradient(top, #E6F5F8, #D4E1F5);
+}
+
+.table_discussions {border: 0; width: 100% ; font-size: 10pt; margin: 0;}
+.table_discussions th {padding: 0; height: 29px; border: 0; color: #259; font-size: 8pt; font-weight: bold; text-align: center; vertical-align: middle; background: #E8EEF8;}
+.table_discussions td {border: 0;}
+.table_discussions td.disc_title img {vertical-align: middle; padding: 0 3px;}
+.table_discussions td.disc_title {background: #F4F6F8;}
+.table_discussions td.disc_title p {padding: 0 0 0 0; margin: 0 0 0 0;}
+.table_discussions td.comm_count {background: #F4F6F8; text-align: center;}
+.table_discussions td.comm_count p {padding: 0 0 0 0; margin: 0 0 0 0;}
+.table_discussions td.you {background: #F4F6F8; text-align: center;}
+.table_discussions td.views {background: #F4F6F8; text-align: center;}
+.table_discussions td.comm_last {background: #F4F6F8; text-align: center;}
+
+.table_discussions td.disc_title:hover {background: #FFFFDD;}
+.table_discussions td.disc_title>a {color: #0394AF; font-weight: bold; text-decoration: underline;}
+.table_discussions td.disc_title a:hover {color: #FF005F; text-decoration: none;}
+
+.disc_watch_status{font-weight: bold; color: red}
+.disc_status{font-weight: bold; color: red; float: right}
+.disc_parent{margin-left: 5px; font-weight: bold; background: silver; color: green}
+.disc_need_approved{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_closed{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_private{margin-left: 5px; font-weight: bold; background: silver; color: red}
+.disc_you_autor{margin-left: 5px; font-weight: normal; color: #DD2222; font-style: italic;}
+.disc_pages_links {float: right}
+.disc_pages_links a {font-size: 0.9em; background: #fff; padding: 0 2px; border: 1px solid #0080FF;}
+.disc_pages_links a:hover {background: #D5F7FF; border-color: #FF005F;}
+
+/* профиль  */
+// .profile_menu{font-size: 8pt; font-weight: bold;}
+
+/* профили  */
+.table_profiles{width: 100% ; font-size: 10pt; color: #259; margin: 15px 0;
+	-o-box-shadow: 0 5px 5px #ddd;
+	-webkit-box-shadow: 0 5px 5px #ddd;
+	-moz-box-shadow: 0 5px 5px #ddd;
+	box-shadow: 0 5px 5px #ddd;
+}
+.table_profiles th {font-size: 8pt; font-weight: bold; background: #E8EEF8; border: 0;}
+.table_profiles td {text-align: center;}
+
+
+/* лог  */
+.admin_log {float: right;}
+.log_comment {font-size: 8pt;}
+
+
+/* форма логина */
+div.type_loginform div.loginform {margin: 10px auto 10px auto; background: #fcfcff; padding: 10px 15px; border: #dce0e7 solid 1px; line-height: 1.2em;  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; behavior: url(/PIE.php); }
+div.type_loginform form.flogin {color: #808080; font-weight: bold;}
+div.type_loginform form.flogin span {}
+div.type_loginform form.flogin input.flogin_user, div.type_loginform form.flogin input.flogin_password {width:100%;}
+div.type_loginform form.flogin input.flogin_user:focus, div.type_loginform form.flogin input.flogin_password:focus {}
+div.type_loginform form.flogin input.flogin_user {}
+div.type_loginform form.flogin input.flogin_submit {}
+div.type_loginform form.flogin input.flogin_submit:hover {}
+
+div.type_loginform div.login-form-auth {clear: both; margin: -26px 0 15px 0; font-size: .8em; text-align: right;}
+div.type_loginform p.flogin_submit {}
+div.type_loginform p.header {text-align: center; font-size: 1.2em; background: #959595; padding: 3px; color: white;}
+div.type_loginform div.form-end {text-align: right; font-size: .9em;}
+
+/* плагин форма логина */
+div.widget form.flogin input.flogin_user, div.widget form.flogin input.flogin_password {width: 95%;}
+div.widget form.flogin input.flogin_submit {margin-top: 7px;}
+
+/* форма поиска */
+input.s {cursor: pointer;}
+input.submit {cursor: pointer; }	
+
+
+/* COMMENT FORM */
+div.comment-form {margin: 10px 0; padding-right: 0;}
+div.comment-form_title {padding-bottom: 5px;}
+div.comments-auth {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid #C0C0C0; background: #F0F0F0;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php); }
+
+div.comment-form div.comments-noreg {}
+div.comment-form div.comments-reg {margin: 0;}
+div.comment-form div.sep {margin-top: 10px; padding-top: 5px; border-top: 1px solid #AAAAAA;}
+
+div.comment-form div.comments-textarea {font-size: 0.8em; margin: 30px 0 10px; padding: 5px 10px; border: 1px solid 
+#DFDFDF; background: #DEECF7;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php);}
+
+table.no-border, table.no-border td {border: none; padding: 0; vertical-align: top; border-collapse: collapse; border-spacing: 0;}
+div.comment-form table {width: 100%;}
+div.comment-form td {padding: 2px;}
+div.comment-form td.t1 {width: 85px; text-align: right;}
+div.comment-form td.t2 input {width: 99.5%;}
+div.comment-form p.hint {margin: 0 0 5px 90px; line-height: 1.2em; color: #404040; font-size: .9em; font-style: italic;}
+div.comment-form p.radio {font-weight: bold;}
+
+div.comment-form textarea {width: 99%; margin: 3px;}
+*html div.comment-form textarea {width: 95%; margin: 3px;}
+
+div.comment-form p.you-comment {font-weight: bold;}
+
+div.comment-form img {position: relative; top: 7px; }
+
+div.comment-form .comment_button input {margin: 0px; padding: 0 5px; fon1t-size: 8pt;}
+
+div.disbat {margin-top: 4px;}
+
+div.comment-form div.comments-user {font-size: 0.8em; margin: 10px 0; padding: 10px; border: 1px solid #C0C0C0; background: #F0F0F0;  -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; behavior: url(/PIE.php); }
+
+div.comment-ok {background: #40A040; color: white; padding: 10px; text-align: center; font-weight: bold;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }
+div.comment-error {background: #FF4040; color: white; padding: 10px; text-align: center; font-weight: bold;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(/PIE.php); }
+
+div.profile_menu {font-size: 8pt; font-weight: bold; margin: 0 0 0 0; padding-left: 10px; margin: 0 0 10px 0; padding-right: 10px; background: #E8E8E8;  line-height: 35px;}
+div.profile_title {font-size: 8pt; margin-bottom: 20px; }
+div.profile_block {background: #FFFFBB; border: #6E9FEB 1px solid; margin: 0 0 10px 0; padding: 5px 10px 10px 10px; -moz-border-radius: 10px;}
+div.profile_block p {background: #FFFFBB}

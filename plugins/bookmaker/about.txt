@@ -1,0 +1,6 @@
+Нужно в шаблонном файле вывода page 
+(для дефолтного шаблона - type_foreach/info_top.php)
+После if(is_page())
+разместить строчку
+
+require(getinfo('plugins_dir') . 'bookmaker/out/page.php');

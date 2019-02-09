@@ -1,0 +1,10 @@
+div.questions_form {}
+
+h2.questions { margin: 20px 0 10px 0;}
+
+table.questions {width: 100%; margin: 5px 0;}
+table.questions td {vertical-align: top; padding: 3px;}
+table.questions td.header {text-align: right; background: gray; color: white;}
+table.questions td.t1 {width: 100px; text-align: right; background: silver;}
+table.questions td.t2 {border-bottom: 1px solid #EEEEEE;}
+table.questions td.space {padding: 0; height: 7px;}

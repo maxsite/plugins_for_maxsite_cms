@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+<settings>
+  <data_type>csv</data_type>
+  <csv_separator></csv_separator>
+  <skip_rows></skip_rows>
+  <font></font>
+  <text_size></text_size>
+  <text_color></text_color>
+  <decimals_separator></decimals_separator>
+  <thousands_separator></thousands_separator>
+  <digits_after_decimal>0</digits_after_decimal>
+  <redraw></redraw>
+
+  <reload_data_interval></reload_data_interval>
+  <preloader_on_reload></preloader_on_reload>
+  <add_time_stamp>true</add_time_stamp>
+  <precision></precision>
+  <connect></connect>
+  <hide_bullets_count></hide_bullets_count>
+  <link_target></link_target>
+  <start_on_axis></start_on_axis>
+  <colors></colors>
+  <rescale_on_hide></rescale_on_hide>
+
+  <background>
+    <color></color>
+    <alpha></alpha>
+    <border_color></border_color>
+    <border_alpha></border_alpha>
+    <file></file>
+
+  </background>
+
+
+  <plot_area>
+    <color></color>
+    <alpha></alpha>
+    <border_color></border_color>
+    <border_alpha></border_alpha>
+    <margins>
+      <left>70</left>
+      <top></top>
+      <right></right>
+      <bottom></bottom>
+    </margins>
+  </plot_area>
+
+  <scroller>
+    <enabled></enabled>
+    <y></y>
+    <color></color>
+    <alpha></alpha>
+    <bg_color></bg_color>
+    <bg_alpha></bg_alpha>
+    <height></height>
+  </scroller>
+
+  <grid>
+    <x>
+      <enabled></enabled>
+      <color></color>
+      <alpha></alpha>
+      <dashed></dashed>
+      <dash_length></dash_length>
+      <approx_count></approx_count>
+    </x>
+    <y_left>
+      <enabled></enabled>
+      <color></color>
+      <alpha></alpha>
+      <dashed></dashed>
+      <dash_length></dash_length>
+      <approx_count></approx_count>
+      <fill_color></fill_color>
+      <fill_alpha></fill_alpha>
+    </y_left>
+    <y_right>
+      <enabled></enabled>
+      <color></color>
+      <alpha></alpha>
+      <dashed></dashed>
+      <dash_length></dash_length>
+      <approx_count></approx_count>
+      <fill_color></fill_color>
+      <fill_alpha></fill_alpha>
+    </y_right>
+  </grid>
+
+  <values>
+    <x>
+      <enabled></enabled>
+      <rotate></rotate>
+      <frequency></frequency>
+      <skip_first></skip_first>
+      <skip_last></skip_last>
+      <color></color>
+      <text_size></text_size>
+      <inside></inside>
+    </x>
+    <y_left>
+      <enabled></enabled>
+      <reverse></reverse>
+      <rotate></rotate>
+      <min></min>
+      <max></max>
+      <strict_min_max></strict_min_max>
+      <frequency></frequency>
+      <skip_first></skip_first>
+      <skip_last></skip_last>
+      <color></color>
+      <text_size></text_size>
+      <unit></unit>
+      <unit_position></unit_position>
+      <integers_only></integers_only>
+      <inside></inside>
+    </y_left>
+    <y_right>
+      <enabled></enabled>
+      <reverse></reverse>
+      <rotate></rotate>
+      <min></min>
+      <max></max>
+      <strict_min_max></strict_min_max>
+      <frequency></frequency>
+      <skip_first></skip_first>
+      <skip_last></skip_last>
+      <color></color>
+      <text_size></text_size>
+      <unit></unit>
+      <unit_position></unit_position>
+      <integers_only></integers_only>
+      <inside></inside>
+    </y_right>
+  </values>
+
+  <axes>
+    <x>
+      <color></color>
+      <alpha></alpha>
+      <width></width>
+      <tick_length></tick_length>
+    </x>
+    <y_left>
+      <type></type>
+      <color></color>
+      <alpha></alpha>
+      <width></width>
+      <tick_length></tick_length>
+      <logarithmic></logarithmic>
+    </y_left>
+    <y_right>
+      <type></type>
+      <color></color>
+      <alpha></alpha>
+      <width></width>
+      <tick_length></tick_length>
+      <logarithmic></logarithmic>
+    </y_right>
+  </axes>
+
+  <indicator>
+    <enabled></enabled>
+    <zoomable></zoomable>
+    <color>#808080</color>
+    <line_alpha></line_alpha>
+    <selection_color>#808080</selection_color>
+    <selection_alpha>15</selection_alpha>
+    <x_balloon_enabled></x_balloon_enabled>
+    <x_balloon_text_color>#ffffff</x_balloon_text_color>
+  </indicator>
+
+  <balloon>
+    <enabled></enabled>
+    <only_one></only_one>
+    <on_off></on_off>
+    <color></color>
+    <alpha></alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+    <max_width></max_width>
+    <corner_radius></corner_radius>
+    <border_width></border_width>
+    <border_alpha></border_alpha>
+    <border_color></border_color>
+  </balloon>
+
+  <legend>
+    <enabled></enabled>
+    <x></x>
+    <y></y>
+    <width></width>
+    <max_columns></max_columns>
+    <color></color>
+    <alpha></alpha>
+    <border_color></border_color>
+    <border_alpha></border_alpha>
+    <text_color></text_color>
+    <text_color_hover>#808080</text_color_hover>
+    <text_size></text_size>
+    <spacing></spacing>
+    <margins></margins>
+    <graph_on_off></graph_on_off>
+    <reverse_order></reverse_order>
+    <align>center</align>
+    <key>
+      <size></size>
+      <border_color></border_color>
+      <key_mark_color></key_mark_color>
+    </key>
+    <values>
+      <enabled>true</enabled>
+      <width>60</width>
+      <align>left</align>
+      <text><![CDATA[]]></text>
+     </values>
+  </legend>
+
+  <vertical_lines>
+    <width></width>
+    <alpha></alpha>
+    <clustered></clustered>
+    <mask></mask>
+  </vertical_lines>
+
+  <zoom_out_button>
+    <x></x>
+    <y></y>
+    <color>#808080</color>
+    <alpha></alpha>
+    <text_color></text_color>
+    <text_color_hover></text_color_hover>
+    <text_size></text_size>
+    <text>Показать все</text>
+  </zoom_out_button>
+
+  <help>
+    <button>
+      <x></x>
+      <y></y>
+      <color></color>
+      <alpha></alpha>
+      <text_color></text_color>
+      <text_color_hover></text_color_hover>
+      <text_size></text_size>
+      <text></text>
+    </button>
+    <balloon>
+      <color></color>
+      <alpha></alpha>
+      <width></width>
+      <text_color></text_color>
+      <text_size></text_size>
+      <text><![CDATA[]]></text>
+    </balloon>
+  </help>
+
+  <export_as_image>
+    <file></file>
+    <target></target>
+    <x></x>
+    <y></y>
+    <color></color>
+    <alpha></alpha>
+    <text_color></text_color>
+    <text_size></text_size>
+  </export_as_image>
+
+  <error_messages>
+    <enabled></enabled>
+    <x></x>
+    <y></y>
+    <color>#808080</color>
+    <alpha></alpha>
+    <text_color>#ffffff</text_color>
+    <text_size></text_size>
+  </error_messages>
+
+  <strings>
+    <no_data></no_data>
+    <export_as_image></export_as_image>
+    <error_in_data_file></error_in_data_file>
+    <collecting_data></collecting_data>
+    <wrong_zoom_value></wrong_zoom_value>
+  </strings>
+
+  <context_menu>
+
+
+
+
+
+
+     <default_items>
+       <zoom>false</zoom>
+       <print>false</print>
+     </default_items>
+  </context_menu>
+
+
+
+
+  <labels>
+
+
+    <label lid="0">
+      <x></x>
+      <y>20</y>
+      <rotate></rotate>
+      <width></width>
+      <align>center</align>
+      <text_color></text_color>
+      <text_size>14</text_size>
+      <text>
+        <![CDATA[<b>Динамика роста посещаемости</b>]]>
+      </text>
+    </label>
+
+  </labels>
+
+
+  <graphs>
+
+
+
+    <graph gid="1">
+
+      <axis>left</axis>
+      <title>Посетители</title>
+      <color>>#25A8FF</color>
+      <color_hover>#808080</color_hover>
+      <line_alpha></line_alpha>
+      <line_width>3</line_width>
+      <fill_alpha>10</fill_alpha>
+      <fill_color>#25A8FF</fill_color>
+      <balloon_color></balloon_color>
+      <balloon_alpha></balloon_alpha>
+      <balloon_text_color></balloon_text_color>
+      <bullet></bullet>
+
+      <bullet_size></bullet_size>
+      <bullet_color></bullet_color>
+      <bullet_alpha></bullet_alpha>
+      <hidden></hidden>
+      <selected></selected>
+      <balloon_text>
+        <![CDATA[]]>
+      </balloon_text>
+      <data_labels>
+        <![CDATA[]]>
+
+      </data_labels>
+      <data_labels_text_color></data_labels_text_color>
+      <data_labels_text_size></data_labels_text_size>
+      <data_labels_position></data_labels_position>
+      <vertical_lines></vertical_lines>
+      <visible_in_legend></visible_in_legend>
+    </graph>
+
+    <graph gid="2">
+
+      <axis>left</axis>
+      <title>Просмотры страниц</title>
+      <color>#74C262</color>
+      <color_hover>#808080</color_hover>
+      <line_alpha></line_alpha>
+      <line_width>3</line_width>
+      <fill_alpha>8</fill_alpha>
+      <fill_color>#74C262</fill_color>
+      <balloon_color></balloon_color>
+      <balloon_alpha></balloon_alpha>
+      <balloon_text_color></balloon_text_color>
+      <bullet></bullet>
+
+      <bullet_size></bullet_size>
+      <bullet_color></bullet_color>
+      <bullet_alpha></bullet_alpha>
+      <hidden></hidden>
+      <selected></selected>
+      <balloon_text>
+        <![CDATA[]]>
+      </balloon_text>
+      <data_labels>
+        <![CDATA[]]>
+
+      </data_labels>
+      <data_labels_text_color></data_labels_text_color>
+      <data_labels_text_size></data_labels_text_size>
+      <data_labels_position></data_labels_position>
+      <vertical_lines></vertical_lines>
+      <visible_in_legend></visible_in_legend>
+    </graph>
+
+    </graphs>
+
+	<guides>	
+	 <max_min></max_min>
+	 <guide>
+	   <axis></axis>
+	   <start_value></start_value>
+	   <end_value></end_value>
+	   <title></title>
+	   <width></width>
+	   <color></color>
+	   <alpha></alpha>
+	   <fill_color></fill_color>
+	   <fill_alpha></fill_alpha>
+	   <inside></inside>
+	   <centered></centered>
+	   <rotate></rotate>
+	   <text_size></text_size>
+	   <text_color></text_color>
+     <dashed></dashed>
+     <dash_length></dash_length>
+	 </guide>
+	</guides>
+
+	
+
+	<!--<data>
+	</data> -->
+</settings>

@@ -1,0 +1,60 @@
+// MaxSite CMS
+// Copyright 
+
+@COLOR_SHADOW: #0066ff;
+
+
+
+.style_for_visited_pages_widget
+{
+			margin:0 10px 10px 0;
+			-webkit-border-radius: 10px; 
+			-moz-border-radius: 10px; 
+			-ms-border-radius: 10px; 
+			-o-border-radius: 10px;
+			border-radius: 10px; 
+			border: 2px solid; 
+			border-color: #ddd #bbb #999; 
+			cursor: pointer;
+			color: #333333; 
+			font: bold 12px/1.3 Arial, sans-serif; 
+			outline: 0;
+			overflow: visible; 
+			//padding: 3px 10px; 
+			text-shadow: white 0 1px 1px; 
+			
+			div 
+			{
+				.background_gradient (#dceef3, #63d2f0);
+				.opacity(80)
+				
+			}
+}
+
+.visited_pages_widget{
+
+		.category_visited_pages
+		{
+			.style_for_visited_pages_widget;
+			&:hover
+			{
+				.box_shadow(0, 0, 7px, @COLOR_SHADOW);
+			}
+		}
+		.page_visited_pages
+		{
+			.style_for_visited_pages_widget;
+			&:hover
+			{
+				.box_shadow(0, 0, 7px, @COLOR_SHADOW);
+			}
+		}
+		.home_visited_pages
+		{
+			.style_for_visited_pages_widget;
+			&:hover
+			{
+				.box_shadow(0, 0, 7px, @COLOR_SHADOW);
+			}
+		}
+}

@@ -1,0 +1,31 @@
+div.admin-h-menu a:before {
+	display: inline-block;
+	width: 20px;
+}
+div.admin-h-menu a.backend:before {
+	content: "\f012";
+	font-family: FontAwesome;
+}
+
+div.admin-h-menu a.options:before {
+	content: "\f085";
+	font-family: FontAwesome;
+}
+div.admin-h-menu a.help:before {
+    content: "\f0f9";
+    font-family: FontAwesome;
+}
+
+a.file_edit_link {
+	font-family:FontAwesome;
+	text-decoration:none;
+	margin-left:5px;
+	position:relative;top:1px;
+}
+
+h2.down_counter {
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom:5px;
+	color: #232323;
+}

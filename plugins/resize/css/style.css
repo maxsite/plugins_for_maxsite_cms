@@ -1,0 +1,19 @@
+﻿
+#resize-info {font:14px Arial, Helvetica, sans-serif; color:#ffffff; text-align: center; width:100%; height:22px; padding-top:4px; position: fixed; top:0px; right:0px; opacity: 0.8; z-index:88888;}
+
+
+@media screen and (max-width:1920px){
+ div.resize-info {background-color: #FD0100; transition: all 0.5s ease;}
+}
+
+@media screen and (max-width:1366px){
+ div.resize-info {background-color: #FC8602; transition: all 0.5s ease;}
+}
+
+@media screen and (max-width:800px){
+ div.resize-info {background-color: #18F700; transition: all 0.5s ease;}
+}
+
+@media screen and (max-width:480px){
+ div.resize-info {background-color: #0065F5; transition: all 0.5s ease;}
+}

@@ -1,0 +1,18 @@
+
+--
+-- Table structure for table `mso_forms`
+--
+
+CREATE TABLE IF NOT EXISTS `mso_forms` (
+  `form_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `form_ip` varchar(255) NOT NULL DEFAULT '',
+  `form_browser` varchar(255) NOT NULL DEFAULT '',
+  `form_date` datetime DEFAULT NULL,
+  `form_name` varchar(255) NOT NULL DEFAULT '',
+  `form_email` varchar(255) NOT NULL DEFAULT '',
+  `form_text` longtext,
+  `form_refer` varchar(255) NOT NULL DEFAULT '',
+  `form_json_data` longtext,
+    PRIMARY KEY (`form_id`)
+)  DEFAULT CHARSET=utf8  ;
+                    
