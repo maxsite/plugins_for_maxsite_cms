@@ -1,0 +1,8 @@
+/*style for TinyMce*/
+body {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:8px;}
+p{ padding-top: 5px; }
+p.br-p { margin: 0px; padding: 0px; }
+.center { display:block; text-align:center; margin:0.5em auto;}
+blockquote { padding: 4px 4px 4px 20px; margin-left: 30px; border-left: 4px solid #aaaaaa; font-style: italic; font-family: "Courier New", Courier, monospace; background-color: #F6F6F6; }
+img { margin: 0; max-width: 640px; }
+.lightbox{}
