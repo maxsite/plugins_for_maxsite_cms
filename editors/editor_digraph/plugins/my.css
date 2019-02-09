@@ -1,0 +1,110 @@
+.post *
+	{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	}
+.post
+	{
+	padding: 0 15px;
+	margin: 0;
+	background: #fff;
+	}
+
+.post a
+	{color: #98320f; text-decoration: none;}
+.post a:link, .post a:visited
+	{color: #98320f; text-decoration: none;}
+.post a:hover
+	{color: #c71b00; text-decoration: none;}
+
+.post h1
+	{
+	color: #838383;
+
+	font-size: 24px;
+	line-height: 34px;
+
+	font-family: Georgia, Times New Roman, sans-serif;
+		
+	letter-spacing: 2px;
+	word-spacing: 2px;
+
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+
+	background:none;
+
+	margin:0;
+	padding:0;
+	}
+.entry
+	{
+	font-size: 12px;
+	line-height: 17px;	
+
+	color: #000;
+	font-family: verdana, arial, helvetica, tahoma, sans-serif;
+
+	margin:0;
+	padding:0;
+	}
+
+.entry p
+	{
+	text-indent: 3em;
+	text-align: justify;
+	padding:0;
+	padding-bottom: 17px; 
+	margin:0;
+	}
+
+.entry img 
+	{
+	padding: 9px 10px 10px 9px;
+	margin: 4px 12px 0 0;
+	border: 1px solid #d5d3cb; 
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background: #e9e8e3;
+	}
+
+.entry .left
+	{
+	float: left;
+	}
+
+.entry .sign							/* Signature подпись */
+	{
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0 15px;
+	margin:0;
+	}
+.entry .epigraph
+	{
+	font-style: italic;
+	
+	padding-right: 16px;
+	overflow: hidden;
+	margin-bottom: 17px;
+	}
+.entry .epigraph em
+	{
+	float:right;
+	position: relative;
+	}
+
+/* для типографа */
+.entry .u160	{background: #d1f0a0;}	/*u00A0		&nbsp;	Неразрывный межсловный пробел	*/
+.entry .u8201	{background: #ffbec6;}	/*u2009		&thinsp;	Тонкая шпация					*/
+.entry .u8209	{background: #d1f0a0;}	/*u2011				неразрывный дефис				*/
+.entry .u8210	{background: #83ccff;}	/*u2012				Цифровое тире					*/
+.entry .u8211	{background: #ffbec6;}	/*u2013		&ndash;	Среднее тире						*/
+.entry .u8212	{background: #cfe4ef;}	/*u2014		&mdash;	Длинное тире						*/
+.entry .u8722 {background: #ffe49b;}	/*u2212		&minus;									*/
+
+

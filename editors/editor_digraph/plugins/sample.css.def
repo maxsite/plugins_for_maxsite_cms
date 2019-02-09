@@ -1,0 +1,3 @@
+.digraph .button1 {background: url('sample/bb.gif') no-repeat;}
+.digraph .button2 {background: url('sample/uu.gif') no-repeat;}
+.digraph .button3 {background: url('sample/mm.gif') no-repeat;}

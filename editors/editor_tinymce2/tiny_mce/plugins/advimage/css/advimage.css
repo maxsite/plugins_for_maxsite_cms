@@ -1,0 +1,15 @@
+#src_list, #over_list, #out_list {width:280px;}
+.mceActionPanel {margin-top:7px;}
+.alignPreview {border:1px solid #ccc; width:170px; height:131px; overflow:hidden; padding:5px;float:right}
+.checkbox {border:0;}
+.panel_wrapper div.current {height:293px;}
+#prev {margin:0; border:1px solid #ccc; width:428px; height:150px; overflow:auto;}
+#align, #classlist {width:150px;}
+#width, #height {vertical-align:middle; width:50px; text-align:center;}
+#vspace, #hspace, #border {vertical-align:middle; width:30px; text-align:center;}
+#class_list {width:180px;}
+input {width: 302px;}
+#constrain, #onmousemovecheck {width:auto;}
+#id, #lang, #usemap, #longdesc {width:233px;}
+#dir{width:243px;}
+#style{width:361px;}

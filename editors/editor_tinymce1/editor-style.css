@@ -1,0 +1,212 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+label,
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+code, code var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+body, input, textarea {
+	font-size: 12px;
+	line-height: 16px;
+}
+hr {
+	background-color: #666666;
+	border:0;
+	height: 1px;
+	clear:both;
+}
+p {
+	margin-bottom: 10px;
+}
+ul {
+	margin: 0 0 10px 1.5em;
+}
+ol {
+	margin: 0 0 10px 1.5em;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom:0;
+}
+dl {
+	margin:0 0 20px 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 10px;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+	border: none;
+}
+big {
+	font-size: 131.25%;
+}
+ins {
+	border: none;
+}
+del {
+	text-decoration: line-through;
+}
+blockquote {
+	font-style: italic;
+	padding: 0 3em;
+}
+blockquote cite,
+blockquote em,
+blockquote i {
+	font-style: normal;
+}
+pre {
+	line-height: 18px;
+	margin-bottom: 18px;
+	padding: 1.5em;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+ins {
+	text-decoration: none;
+}
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	position: relative;
+	font-size: 10px;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+a:link {
+}
+a:visited {
+}
+a:active,
+a:hover {
+}
+p,
+ul,
+ol,
+dd,
+pre,
+hr {
+	margin:0 0 10px;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom:0;
+}
+pre,
+kbd,
+tt,
+var {
+	font-size: 15px;
+	line-height: 21px;
+}
+code {
+	font-size: 13px;
+}
+strong,
+b,
+dt,
+th {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: .8em 0 .4em 0;
+	line-height: 1.5em;
+	font-weight: normal;
+	margin:0;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 14px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 14px;
+}
+table {
+	text-align: left;
+	margin: 5px -1px 5px 0;
+	width: 100%;
+}
+tr th,
+thead th {
+	font-weight: bold;
+	padding: 3px;
+}
+tr td {
+	padding: 3px;
+	vertical-align:top;
+}
+
+img {
+	margin: 0;
+	max-width: 640px;
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}
+.test{
+margin-bottom: 12px;
+}

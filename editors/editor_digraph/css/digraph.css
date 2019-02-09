@@ -1,0 +1,572 @@
+/* TABS */
+
+/* root element for tabs  */
+ul.digraph-tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;	
+	/*border-bottom: 1px solid #8993a2;*/
+	height:30px;
+}
+
+/* single tab */
+ul.digraph-tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+/* link inside the tab. uses a background image */
+ul.digraph-tabs a { 
+	background: url(images/digraph.png) no-repeat 0 0;
+	font-size:11px;
+	font-weight:bold;
+	display:block;
+	height: 30px;  
+	line-height:30px;
+	width: 134px;
+	text-align:center;	
+	text-decoration:none;
+	color:#8c939b;
+	padding:0;
+	margin:0;	
+	position:relative;
+	top:1px;
+}
+
+ul.digraph-tabs a:active {
+	outline:none;		
+}
+ul.digraph-tabs a:focus {
+	outline:none;
+	-moz-outline-style:none;
+	}
+
+/* when mouse enters the tab move the background image */
+ul.digraph-tabs a:hover {
+	/*background-position: -420px -31px;*/
+	color:#36414e;	
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+ul.digraph-tabs a.current, ul.digraph-tabs a.current:hover, ul.digraph-tabs li.current a {
+	background-position: 0 -31px;		
+	cursor:default !important; 
+	color:#343b44 !important;
+}
+
+/* initially all panes are hidden */ 
+div.digraph-panes div.pane {display:none;}
+
+
+/* Corner radius */
+.ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; }
+.ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; }
+.ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; }
+.ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; }
+.ui-corner-top { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; }
+.ui-corner-bottom { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; }
+.ui-corner-right {  -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; }
+.ui-corner-left { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; }
+.ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+.ui-corner-tl3 { -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; }
+.ui-corner-tr3 { -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; }
+.ui-corner-all3 { -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default
+	{
+	background: url('images/digraph.png') no-repeat -34px -87px;
+	font-weight: normal;
+	color: #555555;
+	outline: none;
+	}
+.ui-state-hover
+	{
+	background: url('images/digraph.png') no-repeat -68px -87px;
+	font-weight: normal;
+	color: #212121;
+	outline: none;
+	}
+.ui-state-active, .ui-state-on
+	{
+	background: url('images/digraph.png') no-repeat -102px -87px;
+	font-weight: normal;
+	color: #212121;
+	outline: none;
+	}
+.ui-state-disabled
+	{
+	opacity: .50; 
+	filter:Alpha(Opacity=50);
+	background: url('images/digraph.png') no-repeat 0 -87px;
+	}
+
+
+.digraph, form, fieldset {margin:0;padding:0;border:none;}
+
+.digraph .panels
+	{
+	display:block;
+	float:left;
+	width:100%;
+	/*height:27px;*/
+	margin:0;
+	padding:0;
+	background: #5a6471 url('images/digraph.png') repeat-x 0 -865px;
+	border:1px solid #48515d;
+	border:1px solid #8a94a1;
+	border-bottom: 1px solid #38414d;
+	}
+.ui-button
+	{
+	float:left;
+	margin:2px 0 2px 0;
+	padding:0;
+	cursor:pointer;
+	width:34px;
+	height:27px;
+	}
+.ui-button span
+	{
+	float:left;
+	display: inline; /* fix for IE*/
+	/*margin:3px 0 0 7px;*/
+	margin:0;
+	padding:0;
+	width:34px;
+	height:27px;
+	background:#ff0000;
+	}
+
+
+.ui-state-active span, .ui-state-on span	/* иконка на пиксель вниз*/
+	{
+	margin-top:1px;
+	height:26px;
+	}	
+.digraph .divider{float:left;display:inline;width:4px;height:20px;}					/* делитель груп */
+
+.digraph .bold {background: url('images/digraph.png') no-repeat 0 -162px;}
+.digraph .italic {background: url('images/digraph.png') no-repeat -34px -162px;}
+.digraph .underline {background: url('images/digraph.png') no-repeat -68px -162px;}
+.digraph .format {background: url('images/digraph.png') no-repeat -102px -162px;}
+/*
+.digraph .redo {background: url('images/digraph.png') no-repeat -80px -160px;}
+.digraph .undo {background: url('images/digraph.png') no-repeat -100px -160px;}
+*/
+.digraph .align-left {background: url('images/digraph.png') no-repeat 0 -189px;}
+.digraph .align-center {background: url('images/digraph.png') no-repeat -34px -189px;}
+.digraph .align-right {background: url('images/digraph.png') no-repeat -68px -189px;}
+.digraph .align-justify {background: url('images/digraph.png') no-repeat -102px -189px;}
+
+.digraph .link {background: url('images/digraph.png') no-repeat 0 -216px;}
+.digraph .image {background: url('images/digraph.png') no-repeat -34px -216px;}
+.digraph .properties {background: url('images/digraph.png') no-repeat -68px -216px;}
+.digraph .character {background: url('images/digraph.png') no-repeat -102px -216px;}
+
+.digraph .remove-format {background: url('images/digraph.png') no-repeat 0 -243px;}
+.digraph .validator {background: url('images/digraph.png') no-repeat -34px -243px;}
+.digraph .typograph {background: url('images/digraph.png') no-repeat -68px -243px;}
+.digraph .preview {background: url('images/digraph.png') no-repeat -102px -243px;}
+
+.digraph .tags {background: url('images/digraph.png') no-repeat 0 -270px;}
+.digraph .ordered-list {background: url('images/digraph.png') no-repeat -34px -270px;}
+.digraph .unordered-list {background: url('images/digraph.png') no-repeat -68px -270px;}
+
+
+.digraph .paragraph {background: url('images/digraph.png') no-repeat 0 -297px;}
+.digraph .header {background: url('images/digraph.png') no-repeat -34px -297px;}
+.digraph .list {background: url('images/digraph.png') no-repeat -68px -297px;}
+.digraph .contentEditable {background: url('images/digraph.png') no-repeat -102px -297px;}
+/*
+.digraph .mystyle {background: url('images/digraph.png') no-repeat -100px -200px;}
+*/
+
+
+
+.digraph .validatorbox
+	{
+	display: none;
+	clear:left;
+	width:100%;
+	border: 1px solid #414852;
+	border:1px solid #8a94a1;
+	padding: 4px 0;
+	border-top: none;
+	border-bottom:none;
+	background: #5a6471;
+	}
+#digraph-message
+	{
+	margin: 0 20px 0 4px;
+	border: 1px solid #596372;
+	background: #b0b7c0;
+	}
+
+#digraph-message ul
+	{
+	margin:0;padding:0;
+	padding: 2px 0 2px 32px;
+	list-style: square outside;
+	}
+#digraph-message ul *
+	{
+	font-size: 11px;
+	font-family: arial, tahoma, verdana, helvetica, sans-serif;
+	padding: 1px;
+	}
+#digraph-message .error
+	{
+	color: #ee0000;
+	background: none !important;
+	border: none !important;
+	margin: 0 !important;
+	}
+
+
+
+.digraph .previewbox
+	{
+	margin:0;
+	padding:0;
+	/*float: left;*/
+	width: 100%;
+	border:1px solid #8a94a1 !important;
+	border-top:none !important;
+	/*position: relative;*/
+	}
+
+textarea#f_content	
+	{
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border:1px solid #b0b7c0 !important;
+	border-top:none !important;
+	}
+
+.digraph .previewbox
+	{
+	/*float: left;*/
+	clear:left;
+	overflow: auto;
+	display: none;
+	}
+
+/* ==================================== */
+
+.digraph ul, .digraph li	/*!!!*/
+	{
+	background: none !important;
+	}
+ul.digraph-menu
+	{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	width: 200px;
+	/* filter: alpha(opacity=95); opacity: 0.95; */	
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*
+	border: 1px solid #ccd0d5;
+	border-right: 1px solid #acb0b5;
+	border-bottom: 1px solid #acb0b5;
+	*/
+	border: 1px solid #5a6471;
+	border-top: 3px solid #5a6471;
+	background: #eff0f2  !important;
+	}
+li.digraph-menuitem /* li */
+	{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0 !important;
+	background:none !important;
+	}
+.digraph-menu .pointer
+	{
+	background: url('images/digraph.png') no-repeat right -114px;
+	}
+.separator hr
+	{
+	color:#ccc;
+	background-color:#ccc;
+	height: 1px;
+	border-width:0;
+	}
+.digraph-menu li.separator /* as li */
+	{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+	height: 6px;
+	padding: 2px 0 0 0 !important;
+	font-size: 1px; /* for IE */
+	background:none !important;
+	/*background: url('images/digraph.png') repeat-x 0 -840px;*/
+	}
+li.digraph-menuitem span
+	{
+	display: block;
+	width: 100%;
+	color: #000;
+	text-decoration: none;
+	text-indent: 8px;
+	margin: 0;
+	padding: 0;
+	height: 26px;
+	line-height: 26px;
+	
+	cursor:pointer;
+	}
+.digraph-menu .hover
+	{
+	/*background: #5a6471 url('images/digraph.png') repeat-x 0 -865px;*/
+	background: #798392 !important;
+	/*background: #ccd0d5  !important;*/
+	}
+.digraph-menu .hover span
+	{
+	/*color: #000;*/
+	color:#fff;
+	}
+/*
+.digraph-menu li a:hover, .digraph-submenu li a:hover,  .digraph-menu .activemenu
+	{
+	background-color: #ededed;
+	}
+*/
+/* end menu */
+
+.wui-button
+	{
+	float:right;
+	display:inline;
+	width:134px;
+	height:26px;
+	margin: 4px 0 0 4px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	font-family:verdana, arial, helvetica, sans-serif;	
+	cursor:pointer;
+	background: url(images/digraph.png) no-repeat 0 -61px;
+	}
+
+/* DIGRAPH-WINDOW =============================================*/
+
+.digraph-window
+	{
+	display:none;
+	width:640px;
+	padding:0;
+	font-family:verdana, arial, helvetica, sans-serif;	
+	border: 1px solid #8993a2;
+	background: #e9ebed;
+
+	/* for IE & Opera */
+	z-index:10000;
+	
+	background-image:url('images/null.gif');
+	background-repeat:no-repeat;
+	}
+.digraph-header
+	{
+	height:26px;
+	cursor: move;
+	border:1px solid #68717d;
+	border-bottom:1px solid #38414d;
+	background:#5a6471 url('images/digraph.png') repeat-x 0 -865px;
+	}
+.digraph-body
+	{
+	margin:0;
+	padding:0;
+	border: 1px solid #e9ebed;
+	background: #b0b7c0;
+	}
+
+.digraph-header span
+	{
+	padding-left: 8px;
+	color:#f1f2f4;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 24px;
+	}
+.digraph-content
+	{
+	border-top: 1px solid #c0c7d0;
+	padding:4px;
+	}
+.digraph-window .close,  .validatorbox .close
+	{
+	background: url('images/digraph.png') no-repeat right -136px;
+	position:absolute;
+	right:3px;
+	top:3px;
+	cursor:pointer;
+	height:20px;
+	width:20px;
+	}
+
+.validatorbox .close
+	{
+	float:right;
+	position:relative;
+	right:0;
+	top:0;
+	}
+
+#digraph-wait .close{display:none;}
+
+ul.digraph-tabs{margin:0 20px 0 64px !important;}
+
+ #digraph-tab-properties-box, #digraph-tab-style-box, #digraph-tab-text-box, #digraph-tab-font-box
+	{
+	height:160px;
+	/*line-height: 26px;*/
+
+	line-height: 25px;
+	padding:12px 24px 0 0;
+	background: #e9ebed;
+	border: 1px solid #798392;
+	}
+
+.digraph-window label
+	{
+	float: left;
+	display:inline;
+	width:100px;
+
+	color: #333;
+	font-size: 11px;
+	font-family: verdana, arial, helvetica, sans-serif;	
+
+	margin:0 4px;
+	padding: 0;
+	line-height: 25px;
+	text-align: right;
+	}
+
+.digraph-window input, .digraph-window select
+	{
+	float: left;
+	outline: none; 
+	display:inline;
+
+	height:15px;
+	
+	padding:2px;
+
+	border: 2px solid #c0c7d0;
+	color: #0163a1;
+	font-weight:bold;
+	font-size: 12px;
+	
+	font-family: verdana, arial, helvetica, sans-serif;
+	}
+.digraph-window select
+	{
+	height:23px;
+	}
+
+.digraph-window select option {padding:2px 16px 2px 2px;}
+
+.digraph-window input:focus, .digraph-window select:focus{border:2px solid #f8954d;}
+
+#digraph-prop-preview
+	{
+	height:auto;
+	margin-top:4px;
+	padding:0 0 8px 0;
+	background: #e9ebed;
+	border: 1px solid #798392;
+	}
+#digraph-prop-preview legend
+	{
+	font-size:11px;
+	color: #68717d;
+	font-weight:bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	}
+
+/* charmap */
+
+#digraph-charmap 
+	{
+	width:auto;
+	}
+.digraph-content-table
+	{
+	margin:0 !important;
+	}
+.digraph-content-table td
+	{
+	background:none !important;
+	border:0 !important;
+	padding:0 !important;
+	}
+#digraph-content-ftd
+	{
+	width:522px;
+	}
+#digraph-preview-box
+	{
+	border:1px solid #798392;
+	background:#ccd0d5;
+	font-family:tahoma;
+	}
+#digraph-preview-char /* digraph-preview-char & digraph-preview-code */
+	{
+	font-weight: bold;
+	text-align:center;	
+	font-size:36px;	/* 16 18 20 22 24 26 28 36 */
+
+	border:1px solid #798392;
+	background: #f9fbfd !important;
+	}
+#digraph-preview-code
+	{
+	font-weight: bold;
+	font-size:12px;
+	}
+#digraph-char-data	/* таблица символов */
+	{
+	table-layout:fixed;
+	border-collapse:separate;
+	border-spacing:1px;
+	margin:0;
+	padding:0;
+	}
+#digraph-char-data td
+	{
+	width:30px;
+	height: 26px;
+	line-height: 26px;
+	overflow:hidden;
+
+	padding:0  !important;
+	
+	font-size: 18px;
+
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #798392 !important;
+	background: #f9fbfd !important;
+	}

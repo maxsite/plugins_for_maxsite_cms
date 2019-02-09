@@ -1,0 +1,43 @@
+﻿
+DiGraphPlugin.push('initUser'); // определение имени функции, которую вызовет DiGraph при инициализации
+
+// само описание функции
+DiGraph.prototype.initUser = function()
+	{
+	// наш подмассив для вставки в глобальный массив DiGraphDef
+	var myMenu = [
+
+	{id: 'button1', title: 'пример пользовательской кнопки с вызовом функции: addText', run: "addText", tag: '<bb>', close: '</bb>'}
+	,{id: 'button2',  title: 'пример пользовательской кнопки с вызовом функции: UserFunction', run: "UserFunction", tag: '<uu>', close: '</uu>'}
+	,{id: 'button3',  title: 'пример пользовательского menu', run: "UserMenu", width: 220, menu:
+		[
+		{title: 'пользовательское меню пункт 1', tag: '<h1>', close: '</h1>'}
+		,{title: 'пользовательское меню пункт 2', tag: '<h2>', close: '</h2>'}
+		,{title: 'пользовательское меню пункт 3', tag: '<h3>', close: '</h3>'}
+		]
+	}
+	];
+
+	DiGraphDef.splice(2, 0, myMenu);	// вставляем в глобальный массив
+	}
+
+
+// описание функции используемой для button2
+
+DiGraph.prototype.UserFunction = function(b)
+	{
+	var button = DiGraphRunTime[b.id];	// получаем массив параметров кнопки
+
+	alert('Вызов пользовательской функции: '+button.run);
+
+	$(b).removeClass("ui-state-active");	// возвращаем состояние кнопки в прежнее
+	}
+
+// описание функции для обработки пользовательского меню
+
+DiGraph.prototype.UserMenu = function(b)
+	{
+	var button = DiGraphRunTime[b.id];	// получаем массив параметров пункта меню
+
+	alert(button.title);
+	}

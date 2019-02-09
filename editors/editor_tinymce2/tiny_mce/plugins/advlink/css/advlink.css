@@ -1,0 +1,13 @@
+/* .mceLinkList, .mceAnchorList, #targetlist {width:280px;} */
+.mceActionPanel {margin-top:7px;}
+.panel_wrapper div.current {height:380px;} 
+/* #classlist, #title, #href {width:280px;} */
+#popupurl, #popupname {width:200px;}
+#popupwidth, #popupheight, #popupleft, #popuptop {width:30px;vertical-align:middle;text-align:center;}
+/* #id, #style, #classes, #target, #dir, #hreflang, #lang, #charset, #type, #rel, #rev, #tabindex, #accesskey {width:200px;} */
+div.current input {width:330px}
+div.current input.radio, div.current input.checkbox{width:inherit}
+div.current select {width:340px;}
+
+#advanced_panel input {width:250px}
+#advanced_panel select {width:260px}

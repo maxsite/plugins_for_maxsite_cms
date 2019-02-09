@@ -1,0 +1,229 @@
+body {
+	height: 100%;
+}
+input.tadv-chk {
+	border: none;
+	padding: 0;
+	vertical-align: middle;
+}
+* html input.tadv-chk {
+	margin: 0;
+	background-color:#eaeaea;
+}
+label.tadv-box {
+	margin: 0 2px;
+	padding: 1px 3px 3px 7px;
+	background-color: #eaeaea;
+	cursor: default;
+	line-height: 28px;
+}
+* html label.tadv-box {
+	padding: 0 3px 1px 8px;
+}
+form#tadvadmin {
+	margin-left: 17px;
+}
+#tadvadmin p {
+	margin: 6px 0;
+}
+.separator, .tadvmodule {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	opacity: 0.999999;
+}
+#tadvadmin, #tadvzones, #tadvpalette {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+* ul, * ul li {
+	list-style-type: none;
+}
+#tadvadmin p.submit {
+	padding-right: 10px;
+}
+#tadvadmin #save {
+	float: right;
+}
+.tadv_btn {
+	margin-left: 8px;
+}
+#tadvzones {
+	margin-right: 280px;
+	height: 260px;
+}
+.tadvdropzone {
+	float: left;
+	width: 99.99%;
+	padding: 0;
+	height: 40px;
+	margin: 8px 0;
+	z-index: -1;
+}
+.tadvdropzone .descr {
+	display: none;
+}
+.tadvdropzone .tadvmodule .tadvitem {
+	background: url(../images/fade-butt.png) repeat scroll;
+	border:1px solid #999999;
+	display:block;
+	height:20px;
+	margin:1px;
+	padding:1px 2px;
+	width:20px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.tadvdropzone ul {
+	height: 30px;
+	background-color: #E5E5E5;
+	width: 99.99%;
+	float: left;
+	margin: 0;
+	padding: 2px 4px;
+}
+#tadvadmin .tadvmodule {
+	cursor: move;
+	position: relative;
+}
+.tadvdropzone .tadvmodule {
+	width: 29px;
+	height: 27px;
+	margin: 2px 0 0;
+	padding: 0;	
+	float: left;
+}
+#tadvadmin img {
+	border: 0;
+	vertical-align: -6px;
+	margin: 0;
+}
+#tadvpalette li, .tadvdropzone li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	margin-bottom: 0;
+}
+#tadvpalette {
+	border: 1px solid #bbb;
+	background-color: #f0f0ee;
+	height: 64px;
+	padding: 4px;
+	margin: 8px 0;
+}
+#tadvpalette .tadvmodule .tadvitem {
+	display: block;
+	height: 22px;
+	width: 134px;
+	border: 1px solid #bbb;
+	background-color: #fff;
+	margin: 4px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#tadvpalette .tadvmodule .descr {
+	display: inline;
+	font-size: 12px;
+}
+* html #tadvpalette .tadvmodule img {
+	vertical-align: middle;
+}
+#tadvpalette .tadvitem img {
+	padding: 1px 0 0 2px;
+}
+#pre_formatselect.tadvmodule .tadvitem,
+#pre_styleselect.tadvmodule .tadvitem,
+#pre_fontsizeselect.tadvmodule .tadvitem,
+#pre_fontselect.tadvmodule .tadvitem {
+	width: 98px;
+}
+#pre_tablecontrols.tadvmodule .tadvitem {
+	width: 335px;
+}
+#pre_vipersvideoquicktags.tadvmodule .tadvitem {
+	width: 305px;
+}
+.tadvdropzone #pre_formatselect,
+.tadvdropzone #pre_styleselect,
+.tadvdropzone #pre_fontsizeselect,
+.tadvdropzone #pre_fontselect {
+	width: 101px;
+}
+.tadvdropzone #pre_formatselect .tadvitem,
+.tadvdropzone #pre_styleselect .tadvitem,
+.tadvdropzone #pre_fontsizeselect .tadvitem,
+.tadvdropzone #pre_fontselect .tadvitem {
+	width: 92px;
+}
+.tadvdropzone #pre_tablecontrols {
+	width: 294px;
+}
+.tadvdropzone #pre_tablecontrols .tadvitem {
+	width: 285px;
+}
+.tadvdropzone #pre_layer {
+	width: 97px;
+}
+.tadvdropzone #pre_layer .tadvitem {
+	width: 88px;
+}
+.tadvdropzone #pre_vipersvideoquicktags{
+	width: 215px;
+}
+.tadvdropzone #pre_vipersvideoquicktags .tadvitem {
+	width: 206px;
+}
+#tadvpalette .separator, .tadvdropzone .separator {
+	float: left;
+	cursor: move;
+}
+.separator .tadvitem {
+	background: #333333 none repeat scroll 0%;
+	display: block;
+	height: 26px;
+	margin: 0 2px;
+	width: 1px;
+}
+#tadvpalette .separator .tadvitem {
+	background-color: #e5e5e5;
+	border: 1px solid #AAAAAA;
+	display: block;
+	height: 20px;
+	margin: 4px;
+	padding: 1px 3px;
+}
+* html #tadvpalette .separator .tadvitem img {
+	margin: 1px 0 -2px 1px;
+}
+.tadvdropzone .separator {
+	background: transparent;
+	display: block;
+	height: 28px;
+	margin: 2px 1px 0pt 0pt;
+}
+#tadvWarnmsg, #tadvWarnmsg2 {
+	color: #ff0000;
+	font-weight: bold;
+	height: 26px;
+	line-height: 26px;
+}
+#tadv_uninst_div {
+	display: none;
+	background: #FFFFE0;
+	border: 1px solid #E6DB55;
+	padding: 8px;
+	margin-left: 20px;
+}
+.ui-sortable-helper {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	z-index: 100;
+}
+.clear {clear: both;}
