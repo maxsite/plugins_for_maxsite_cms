@@ -1,0 +1,11 @@
+img.person-info__photo{display:block;margin:0 auto;width:auto;max-width:200px;padding:16px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+.person-info__name{text-align:center;font-size:2.2rem;}
+
+.person-info-btn{display:block;text-align:center;margin:0 auto;padding:16px 0;}
+.person-info-btn__item [class*="i-"]:before{margin:0 !important}
+.person-info-btn__item{display:inline-block;background-color:#337ab7;color:#fff;font-size:2.2rem;width:40px;height:40px;line-height:40px;margin:0 8px 8px 0;text-align:center;vertical-align:middle;cursor:pointer;outline:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.person-info-btn__item:hover{background-color:#212121;color:#fff}
+.person-info-btn .person-info-btn__item:last-child{margin-right:0}
+
+.person-info__text{}
+.person-info__text p:last-child{margin-bottom:0;}

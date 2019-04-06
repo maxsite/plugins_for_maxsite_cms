@@ -1,0 +1,15 @@
+Примеры использования.
+
+
+
+Несколько в одной галерее.
+
+
+
+- галерея
+[gallery]
+	[gal=http://site/uploads/image1-mini.jpg  описание Картинка1]http://site/uploads/image1.jpg[/gal]
+	[gal=http://site/uploads/image2-mini.jpg описание Картинка2]http://site/uploads/image2.jpg[/gal]
+	[gal=http://site/uploads/image3-mini.jpg описание Картинка3]http://site/uploads/image3.jpg[/gal]
+[/gallery]
+

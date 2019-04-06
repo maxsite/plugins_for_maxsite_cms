@@ -1,0 +1,76 @@
+Примеры использования.
+
+
+Одиночная картинка:
+
+<a href="http://site/uploads/image1-mini.jpg" title="Название" class="lightbox"><img src="http://site/uploads/image1.jpg" alt=""></a>
+
+
+
+Несколько в фото одной галерее.
+
+<div class="gallery">
+	<div class="gallery__item"><a href="http://site/uploads/image1-mini.jpg" title="Название"><img src="http://site/uploads/image1.jpg" alt=""></a></div>
+	<div class="gallery__item"><a href="http://site/uploads/image2-mini.jpg" title="Название"><img src="http://site/uploads/image2.jpg" alt=""></a></div>
+	<div class="gallery__item"><a href="http://site/uploads/image3-mini.jpg" title="Название"><img src="http://site/uploads/image3.jpg" alt=""></a></div>
+</div>
+
+
+
+BBCODE
+
+- одиночная
+[img Картинка1]http://site/uploads/image1.jpg[/img]
+[image=http://site/uploads/image1-mini.jpg Картинка1]http://site/uploads/image1.jpg[/image]
+[image=http://site/uploads/image1-mini.jpg]http://site/uploads/image1.jpg[/image]
+[image]http://site/uploads/image1.jpg[/image]
+
+
+
+Позиционирование фото:
+[image_left Картинка1]http://site/uploads/image1.jpg[/image_left]
+[image_right Картинка1]http://site/uploads/image1.jpg[/image_right]
+
+
+или
+[image_left]http://site/uploads/image1.jpg[/image_left]
+[image_right]http://site/uploads/image1.jpg[/image_right]
+
+
+
+
+
+- галерея с описание картинок
+[gallery]
+	[gal=http://site/uploads/image1-mini.jpg Картинка1]http://site/uploads/image1.jpg[/gal]
+	[gal=http://site/uploads/image2-mini.jpg Картинка2]http://site/uploads/image2.jpg[/gal]
+	[gal=http://site/uploads/image3-mini.jpg Картинка3]http://site/uploads/image3.jpg[/gal]
+[/gallery]
+
+
+или
+
+[gallery][galname]Название галереи[/galname]
+	[gal=http://site/uploads/image1-mini.jpg Картинка1]http://site/uploads/image1.jpg[/gal]
+	[gal=http://site/uploads/image2-mini.jpg Картинка2]http://site/uploads/image2.jpg[/gal]
+	[gal=http://site/uploads/image3-mini.jpg Картинка3]http://site/uploads/image3.jpg[/gal]
+[/gallery]
+
+
+
+- галерея с без описание картинок
+[gallery]
+	[gal=http://site/uploads/image1-mini.jpg]http://site/uploads/image1.jpg[/gal]
+	[gal=http://site/uploads/image2-mini.jpg]http://site/uploads/image2.jpg[/gal]
+	[gal=http://site/uploads/image3-mini.jpg]http://site/uploads/image3.jpg[/gal]
+[/gallery]
+
+
+или
+
+[gallery][galname]Название галереи[/galname]
+	[gal=http://site/uploads/image1-mini.jpg]http://site/uploads/image1.jpg[/gal]
+	[gal=http://site/uploads/image2-mini.jpg]http://site/uploads/image2.jpg[/gal]
+	[gal=http://site/uploads/image3-mini.jpg]http://site/uploads/image3.jpg[/gal]
+[/gallery]
+
